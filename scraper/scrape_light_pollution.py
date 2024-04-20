@@ -22,14 +22,17 @@ countries = {
     "Bahamas": "BS",
 }
 
+locations.reverse()
 for location in locations:
     if location in done:
         continue
 
     extra = countries[location.split(", ")[-1]] if location.split(", ")[-1] in countries else ""
     response = requests.get(
+        #f"https://maps.googleapis.com/maps/api/geocode/json?address={location.rsplit(',',1)[0]}{extra}&key={google_maps_api_key}"
         f"https://maps.googleapis.com/maps/api/geocode/json?address={location.split(',')[0]}{extra}&key={google_maps_api_key}"
     )
+    print(location.rsplit(',',1)[0], response.text)
 
     coords = None
     for result in response.json()["results"]:
@@ -40,7 +43,7 @@ for location in locations:
     
     if coords:
         response = requests.get(
-            f"https://www2.lightpollutionmap.info/QueryRaster/?qk=MTcxMzYxNzIyOTgwMTtpc3Vja2RpY2tzOik=&ql=wa_2015&qt=point&qd={coords}",
+            f"https://www2.lightpollutionmap.info/QueryRaster/?qk=MTcxMzYyMzYxMjc1Mjtpc3Vja2RpY2tzOik=&ql=wa_2015&qt=point&qd={coords}",
             headers = {
                 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
             }
