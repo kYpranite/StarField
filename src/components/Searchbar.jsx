@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import "./SearchbarStyles.css";
 
-export default function Searchbar({ changeSidebar, setChartData }) {
+export default function Searchbar({ searchRef, changeSidebar, setChartData }) {
   const dummyData = [
     { time: "20:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 10 },
     { time: "22:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 20 },
@@ -30,6 +30,7 @@ export default function Searchbar({ changeSidebar, setChartData }) {
     autoCompleteRef.current.addListener("place_changed", async function () {
       const place = await autoCompleteRef.current.getPlace();
       console.log({ place }); // place holder, place object contains lat and long of entered address
+      searchRef.current.scrollIntoView({behavior: "smooth"})  
       setChartData(dummyData);
     });
   }, []);
