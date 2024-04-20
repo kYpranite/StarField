@@ -20,7 +20,7 @@ const CardBox = () => {
   const currentSeason = getSeason(currentMonth);
 
   return (
-    <div className="flex flex-wrap flex-row w-[80%] h-[50%] my-5 mx-auto gap-y-5 gap-x-6 overflow-y-auto border-2 border-gray-700 rounded-md justify-center py-5">
+    <div className="flex flex-wrap flex-row w-[95%] h-[50vh] px-3 my-5 mx-auto gap-y-5 gap-x-6 overflow-y-auto border-2 border-gray-700 rounded-md justify-center py-5">
       {bodies[currentSeason].map((body, index) => (
         <Card
           key={index}
