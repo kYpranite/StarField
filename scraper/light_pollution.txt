@@ -1,0 +1,730 @@
+Cat Island (South), Cat Island, Bahamas:21.988779602668703
+AUGO Fort Vermillion, AB, Canada:20.05128012544244
+Alberta Star Party, AB, Canada:21.523492936841386
+Athabasca, AB, Canada:19.8043162558547
+Barrhead, AB, Canada:20.12631175947246
+Berry Creek, AB, Canada:21.741413599701815
+Big Sky Observatory Site, AB, Canada:21.61885873584529
+Bon Accord Observatory, AB, Canada:20.93623856604902
+Bragg Creek, AB, Canada:20.74851863834456
+Brooks, AB, Canada:20.711390803325756
+Carmangay Village, AB, Canada:21.504194777429355
+Carvel Observatory, AB, Canada:20.93623856604902
+Chestermere, AB, Canada:18.698469076785436
+Claresholm, AB, Canada:20.43045075540566
+Cochrane, ON, Canada:19.369143445061912
+Cypress Hills Dark-Sky Preserve - CHICO, AB, Canada:18.88262736509155
+Dinosaur Provincial Park, AB, Canada:21.74909004723536
+Drayton Valley, AB, Canada:19.06120193327841
+Drumheller, AB, Canada:19.612148188903028
+Elbow Valley, AB, Canada:20.93623856604902
+Fifth Meridian Observatory, AB, Canada:17.758501854380114
+Fort Chipewyan, AB, Canada:20.33806022004785
+Fort MacKay/Firebag Aerodrome, AB, Canada:19.32625562860003
+Fort McMurray, AB, Canada:18.365727903054843
+Glennifer Lake, AB, Canada:20.93623856604902
+Grande Prairie, AB, Canada:17.917994248236827
+Hinton, AB, Canada:21.281324299175235
+Hythe Observatory, AB, Canada:20.93623856604902
+Innisfail, AB, Canada:19.557833079948843
+Jasper Athabasca Glacier, AB, Canada:21.994982136651682
+Jasper House Viewpoint, AB, Canada:21.948440848042424
+Jasper Maligne Lake, AB, Canada:20.93623856604902
+Jasper Marmot Meadows, AB, Canada:20.680188283255706
+Keivers Lake, AB, Canada:20.93623856604902
+Kitscoty, AB, Canada:20.69420010966094
+Lac la Biche, AB, Canada:19.50063704876119
+Lakeland Provincial Park, AB, Canada:21.865113191035903
+Little Bow Reservoir, AB, Canada:20.93623856604902
+Lloydminster, AB, Canada:18.493653617005858
+Medicine Hat, AB, Canada:21.600210681627335
+Medicine Lake Viewpoint, AB, Canada:20.93623856604902
+Miquelon Lake Provincial Park, AB, Canada:20.82780295262901
+Newbrook Observatory, AB, Canada:20.93623856604902
+Northdog Observatory, AB, Canada:20.93623856604902
+Okotoks, AB, Canada:19.216244293952414
+Peyto Lake, AB, Canada:20.93623856604902
+Pincher Creek, AB, Canada:20.53371419770569
+Pisony Ranch, AB, Canada:17.75318807851714
+Red Deer, AB, Canada:18.024122685403924
+Ridge Park Campground, AB, Canada:20.93623856604902
+Rocky Mountain House, AB, Canada:20.93623856604902
+Rothney Astrophysical Observatory, AB, Canada:20.085739212504258
+Sandy McNabb Campground, AB, Canada:20.93623856604902
+Sheerness Lake, AB, Canada:18.97766068701165
+Southern Alberta Star Party, AB, Canada:21.50094074514562
+Space Hut Observatory, AB, Canada:20.93623856604902
+Starry Knight Observatory, AB, Canada:20.117553347693526
+Stony Plain, AB, Canada:18.881586274862983
+Strathcona Wilderness Centre, AB, Canada:20.06487160820881
+Strathmore, AB, Canada:20.16049493618618
+Sulphur Mountain Cosmic Ray Station, AB, Canada:21.558176284794985
+Summer Village of Yellowstone, AB, Canada:20.61288171994502
+Sunridge Observatory, AB, Canada:20.93623856604902
+Swan Hills, AB, Canada:20.20932753902118
+Third Stone Observatory, AB, Canada:20.93623856604902
+Three Hills, AB, Canada:20.424710131027474
+Upper Kananaskis Lake, AB, Canada:20.93623856604902
+Vegreville, AB, Canada:19.601498125320948
+Wainwright, AB, Canada:19.456122685355332
+Waiparous Valley Viewpoint, AB, Canada:20.93623856604902
+Wetaskiwin, AB, Canada:19.211823559391945
+Whitecourt, AB, Canada:18.996920098628824
+Writing-on-Stone Provincial Park, AB, Canada:21.961355345046933
+Wyndham Caresland Provincial Park, AB, Canada:20.971085690724458
+Abbotsford, BC, Canada:18.191104357256293
+Agassiz, BC, Canada:20.259881456386594
+Aldergrove Lake Regional Park, BC, Canada:20.93623856604902
+Anarchist Mountain Observatory, BC, Canada:21.792160685892664
+Bella Coola, BC, Canada:21.113146636218953
+Bowen Island, BC, Canada:20.548531334179188
+Cache Creek, BC, Canada:18.420809566093993
+Campbell Valley Regional Park, BC, Canada:20.93623856604902
+Chetwynd, BC, Canada:19.53324715347473
+Chilliwack, BC, Canada:18.51226426316047
+Chilliwack Lake, BC, Canada:18.51226426316047
+Clearwater, BC, Canada:20.54595243737023
+Creston, BC, Canada:21.533942382941635
+Dawson Creek, BC, Canada:18.660304942697756
+Dease Lake, BC, Canada:20.93623856604902
+Dome Creek, BC, Canada:21.99554844509488
+Dominion Astrophysical Observatory, BC, Canada:19.846605118855358
+East Point -- Saturna Island, BC, Canada:21.117694026086422
+Esquimalt, BC, Canada:18.438921169597215
+Fernie Alpine Resort, BC, Canada:21.25212242907044
+Fort Nelson, BC, Canada:18.857279782655418
+Fort Saint James, BC, Canada:20.271856410223307
+Fort Saint John, BC, Canada:18.203452702299113
+Fort Steele Resort & RV Park, BC, Canada:21.634846647307903
+Gold River, BC, Canada:18.330775840412166
+Golden Ears Observatory, BC, Canada:20.93623856604902
+Gordon MacMillan Southam Observatory, BC, Canada:20.006288993117323
+Grand Forks, BC, Canada:17.914051680393634
+Green Lake, BC, Canada:20.390932321664437
+Invermere, BC, Canada:20.633603479340472
+Lasqueti Island Observatory, BC, Canada:21.768664518077834
+Lillooet, BC, Canada:20.80013654035338
+Lytton, BC, Canada:20.79045312097689
+Manning Provincial Park, BC, Canada:21.948557366002042
+McDonald Park, BC, Canada:17.70573984203197
+McMicking Point, BC, Canada:19.693649738784988
+Merritt, BC, Canada:19.847879157069137
+Muncho Lake Provincial Park, BC, Canada:21.99999999864131
+Myrtle Park, BC, Canada:17.986927969493394
+Nelson, BC, Canada:21.513855388563556
+Newton/Godin Observatory, BC, Canada:20.93623856604902
+Okanagan Observatory, BC, Canada:21.746584894754914
+Osoyoos, BC, Canada:20.088685807592363
+Penticton, BC, Canada:19.00146215039478
+Pitt Meadows, BC, Canada:18.24420660740393
+Port Alberni, BC, Canada:19.3754769623899
+Port Coquitlam, BC, Canada:17.826715270982856
+Port Hardy, BC, Canada:20.442335692690758
+Porteau Cove Provincial Park, BC, Canada:21.159761692021714
+Prince George, BC, Canada:19.104695239437397
+Prince Rupert, BC, Canada:19.601022163182552
+Princeton, BC, Canada:21.563410547767198
+Qualicum Beach, BC, Canada:20.93623856604902
+Quesnel, BC, Canada:19.039824364474274
+Quilchena Ranch, BC, Canada:20.93623856604902
+RASC Sunshine Coast Observatory, BC, Canada:19.227184714996692
+Revelstoke, BC, Canada:19.758677667331728
+Richmond, NS, Canada:17.97103676152774
+Rock Creek, BC, Canada:21.905967016300682
+Salt Spring Island, BC, Canada:21.049471686982287
+San Josef Bay, BC, Canada:21.99999999864131
+Sechelt, BC, Canada:19.6903928277417
+Shawnigan Lake School Observatory, BC, Canada:20.90814317494035
+Sproat Lake (east), BC, Canada:21.810486722629363
+Stake Lake Observatory, BC, Canada:21.61729783234576
+Summerland, BC, Canada:20.255732455273083
+Tantalus Lookout, BC, Canada:20.93623856604902
+Tatlayoko Lake, BC, Canada:20.93623856604902
+Trottier Observatory, BC, Canada:18.106283919176295
+UBC Forest Site, BC, Canada:18.366349379368977
+UBC Liquid-Mirror Observatory, BC, Canada:18.296847840106565
+Ucluelet, BC, Canada:20.68824370158221
+University of British Columbia, BC, Canada:20.93623856604902
+Vancouver, BC, Canada:17.05282968525734
+Vanderhoof, BC, Canada:19.714537548807325
+Vernon, BC, Canada:16.82459103953031
+Walloper Lake, BC, Canada:20.93623856604902
+West Vancouver, BC, Canada:18.450600669248022
+White Rock, BC, Canada:19.326244288332102
+Wren Park, BC, Canada:18.686927405361534
+Churchill Northern Studies Centre, MB, Canada:21.939444095844934
+Clearwater Lake, MB, Canada:17.59507821917617
+Dominion City, MB, Canada:20.93623856604902
+Flin Flon, MB, Canada:19.523321800817
+Grand Beach, MB, Canada:20.93623856604902
+Grand Rapids, MB, Canada:17.485145896943052
+Lake Manitoba Narrows, MB, Canada:21.998507745773487
+Minnedosa, MB, Canada:20.24987571582055
+Norway House, MB, Canada:21.71066094372865
+Oak Hummock Marsh Interpretive Center, MB, Canada:20.69310971128297
+Portage La Prairie, MB, Canada:18.740342120976187
+Sandilands Observatory, MB, Canada:20.93623856604902
+Seddon's Corner, MB, Canada:21.46782445087016
+Shoal Lake, MB, Canada:20.93623856604902
+Snow Lake, MB, Canada:19.832107721808978
+Spruce Woods Provincial Park, MB, Canada:21.835347330344987
+St. Malo Provincial Park, MB, Canada:18.721145319187272
+Thompson, MB, Canada:19.379876923987663
+Victoria Beach, MB, Canada:18.922790554576423
+Whiteshell Provincial Park, MB, Canada:21.936503628374478
+Winnipeg, MB, Canada:16.688700275434396
+Alma, QC, Canada:20.43217619272901
+Bouctouche, NB, Canada:20.193062071458414
+Cambridge Narrows, NB, Canada:21.648174640504035
+Dalhousie, NB, Canada:21.35193117204936
+Fredericton, NB, Canada:18.69827920939154
+Fundy National Park, NB, Canada:20.93623856604902
+Grand Manan Island, NB, Canada:21.824205418174287
+Hopewell Rocks Provincial Park, NB, Canada:21.664577406395573
+Irving Nature Park, NB, Canada:20.93623856604902
+Kouchibouguac National Park, NB, Canada:20.93623856604902
+Mactaquac Provincial Park, NB, Canada:21.17841000091297
+Miramichi (Bay du Vin), NB, Canada:21.395457923390016
+Miramichi City (Newcastle), NB, Canada:19.57299006093312
+Miramichi City (Newcastle), NB, Canada:19.57299006093312
+Miscou Island, NB, Canada:21.800749396415426
+Moncton, NB, Canada:18.019345675461892
+Mount Carleton Provincial Park, NB, Canada:21.97970477044005
+Port Elgin, ON, Canada:19.844501862189286
+Quispamsis, NB, Canada:20.297861996552548
+Saint John, NB, Canada:18.135417978638415
+Shediac River Observatory, NB, Canada:20.991705345697785
+St. Andrews, NB, Canada:19.695550005639014
+Upper Gagetown, NB, Canada:21.413261087553536
+Woodstock, ON, Canada:17.89024568305295
+Bay Roberts, NL, Canada:19.983889732211818
+Butter Pot Park, NL, Canada:20.93623856604902
+Deer Lake, NL, Canada:19.832107721808978
+Gander, NL, Canada:19.09099921146984
+Grand Falls-Windsor, NL, Canada:20.93623856604902
+Gros Morne National Park, NL, Canada:20.93623856604902
+Happy Valley-Goose Bay, NL, Canada:19.697668576958616
+Labrador City, NL, Canada:21.297554227580388
+Lady Lake Astronomical Observatory, NL, Canada:18.90909764954656
+Lewisporte, NL, Canada:20.472294485256487
+Musgrave Harbour, NL, Canada:21.36659314976658
+Sandbanks Provincial Park, NL, Canada:21.539679205227355
+Three dog Observatory, NL, Canada:20.93623856604902
+Twillingate, NL, Canada:20.80814897795602
+Twillingate Astronomical Observatory, NL, Canada:20.80814897795602
+Fort Providence, NT, Canada:20.486998207156397
+Fort Smith, NT, Canada:18.169797270062585
+Inuvik, NT, Canada:16.943879664311748
+Trout Lake, NT, Canada:20.93623856604902
+Yellowknife, NT, Canada:18.679727573866018
+Acadia University, NS, Canada:20.071137612428014
+Antigonish, NS, Canada:19.699698493188574
+Blomidon Provincial Park, NS, Canada:21.852366796086773
+Brier Island, NS, Canada:21.852643008519337
+Caribou, NS, Canada:21.833744391045546
+DeepSkyEye Observatory, NS, Canada:20.93623856604902
+Gairloch Mountain Observatory, NS, Canada:21.753986501338993
+Greenwood, NS, Canada:21.064030476240564
+Guysborough, NS, Canada:21.254693637266836
+Hall's Harbour Observatory, NS, Canada:20.93623856604902
+Ingonish Beach, NS, Canada:20.93623856604902
+Kejimkujik National Park, NS, Canada:20.93623856604902
+Leitches Creek, NS, Canada:20.92961743649438
+Liscomb Game Sanctuary, NS, Canada:21.965935239564704
+Lunenburg, NS, Canada:19.871575178287706
+Maple-Brook Observatory, NS, Canada:20.68202052159745
+Musquodoboit Harbour, NS, Canada:21.19591885385001
+New Glasgow, NS, Canada:19.58691212369665
+North East Margaree, NS, Canada:21.848038225199893
+Parrsboro, NS, Canada:20.705994736056272
+Port Hilford, NS, Canada:21.887663135804896
+Port Mouton Observatory, NS, Canada:21.67832574983367
+St. Croix Observatory, NS, Canada:20.93623856604902
+St. F.X. Observatory, NS, Canada:20.93623856604902
+Tatamagouche, NS, Canada:21.197673000007715
+The Islands Provincial Park, NS, Canada:21.078756676087455
+Trout Point Lodge, NS, Canada:21.980999760425686
+Two Rivers Observatory, NS, Canada:20.93623856604902
+Wallace, NS, Canada:20.923938117782466
+Windsor, ON, Canada:18.876126695956003
+Wrights Lake Observatory, NS, Canada:21.80255388134931
+Cambridge Bay, NU, Canada:18.811483881371483
+Cape Dorset, NU, Canada:20.020844492835227
+Chesterfield, NU, Canada:17.03507148901589
+Hall Beach, NU, Canada:20.93623856604902
+Igloolik, NU, Canada:20.011525261727243
+Iqaluit, NU, Canada:18.585332728425172
+Qikiqtarjuaq, NU, Canada:20.41721357129609
+Rankin Inlet, NU, Canada:19.455443749972872
+Sanikiluaq, NU, Canada:20.389396196604856
+Achray Campground, ON, Canada:20.93623856604902
+Algonquin Radio Observatory, ON, Canada:21.983955712202125
+Allenford Observatory, ON, Canada:20.93623856604902
+Anstruther Lake Observatory, ON, Canada:21.859406348284978
+Arden, ON, Canada:17.868206468633456
+Armstrong, ON, Canada:18.92228162451907
+Ashburn Astronomical Observatory, ON, Canada:18.234263468688297
+Astrodoc's Doghouse Observatory, ON, Canada:20.93623856604902
+Baetsen Observatory, ON, Canada:20.93623856604902
+Bancroft, ON, Canada:18.343981441735327
+Barred Owl Observatory, ON, Canada:20.93623856604902
+Bartole Observing Platform, ON, Canada:18.29851485391784
+Bay Ridges Observatory, ON, Canada:17.258747454096525
+Beckwith Park, ON, Canada:20.93623856604902
+Betelgeuse Bar & Grill, ON, Canada:16.533380670833093
+Big Bend Observatory, ON, Canada:21.98568579884246
+Big Trout Lake, ON, Canada:20.93623856604902
+Blue Braille Observatory, ON, Canada:20.93623856604902
+Blue Heron Observatory, ON, Canada:20.93623856604902
+Bonnechere Provincial Park, ON, Canada:21.906787741885953
+Bracebridge, ON, Canada:19.781348984825147
+Brampton BrightSkies Observatory, ON, Canada:20.93623856604902
+Brodie Road Observatory, ON, Canada:17.838604331807772
+Brundish Observatory, ON, Canada:20.93623856604902
+Buckhorn Observatory, ON, Canada:21.547066466277393
+Burk's Falls, ON, Canada:21.047110367770244
+Burlington, ON, Canada:21.974294305745666
+CAMSAT Observatory, ON, Canada:20.93623856604902
+CMiller Observatory, ON, Canada:19.441439698592188
+Camp Kintail, ON, Canada:21.76755042081203
+Camp Opemikon, ON, Canada:21.813713658571714
+Camp Saulaine, ON, Canada:20.16714770963067
+Campbellford, ON, Canada:19.713083983505946
+Canadian Ecology Centre Observatory, ON, Canada:21.919911182743725
+Canary Rise Observatory, ON, Canada:20.93623856604902
+Carr Astronomical Observatory, ON, Canada:21.086705702751306
+Chickadee Ridge Observatory, ON, Canada:21.141009837647314
+Churchill Chimes Equestrian Center, ON, Canada:19.553450608562866
+Cobourg, ON, Canada:19.63302103053916
+Colbeck Observatory, ON, Canada:20.93623856604902
+Cold Creek Conservation Area, ON, Canada:20.93623856604902
+Conestogo Lake, ON, Canada:20.93623856604902
+Coyote Observatory, ON, Canada:19.92639583047391
+Curiosity Observatory, ON, Canada:20.93623856604902
+Dana-Jowsey Lakes Provincial Park, ON, Canada:21.90200726656294
+David Dunlap Observatory, ON, Canada:17.657089471361267
+Delhi (ON), ON, Canada:17.048105918231105
+Dornoch, ON, Canada:20.84662459875661
+Driftwood Provincial Park, ON, Canada:21.965487136832976
+Dundalk, ON, Canada:18.65383681627523
+Durham, ON, Canada:20.74231392343016
+ELAC-Stanleigh, ON, Canada:17.004782596476744
+ES Fox Observatory (BAS/BOEC), ON, Canada:20.93623856604902
+Earl Rowe Provincial Park, ON, Canada:19.30159320378548
+Elginfield Observatory, ON, Canada:20.93623856604902
+Embro Observatory, ON, Canada:20.93623856604902
+Fenelon Falls, ON, Canada:20.41985977252083
+Fergus, ON, Canada:19.359793478828013
+Firemen's Park, ON, Canada:21.285245362602343
+Fisher's Paradise, ON, Canada:20.93623856604902
+Five Ferns Observation Site, ON, Canada:21.992534301122124
+Fort Erie Observatory, ON, Canada:20.93623856604902
+Fort Severn, ON, Canada:20.981106359789976
+Four Corners Algonquin Observatory, ON, Canada:21.800170956977993
+Four Corners Madawaska Observatory, ON, Canada:20.93623856604902
+Four Elements Observatory, ON, Canada:20.93623856604902
+Foxmead Observatory, ON, Canada:20.93623856604902
+Foymount, ON, Canada:21.82183969350366
+Gambridge Go-Karts, ON, Canada:21.058596657864054
+Gananoque, ON, Canada:19.6434693812888
+Geraldton, ON, Canada:18.840165401352152
+Goderich, ON, Canada:19.414733988674655
+Gravenhurst, ON, Canada:19.764042484145396
+Greater Napanee, ON, Canada:20.92082364591491
+Haliburton County, ON, Canada:20.93623856604902
+Haliburton Forest Observatory, ON, Canada:21.928481706172303
+Hallam Observatory, ON, Canada:20.380549745435957
+Halton Hills, ON, Canada:19.366565725389407
+Hammond, ON, Canada:17.897941787967344
+Hawkesbury, ON, Canada:19.021229481357675
+Hearst, ON, Canada:21.930156555328598
+Hiddenwell Observatory, ON, Canada:20.93623856604902
+Highlands Wilderness Observatory, ON, Canada:20.93623856604902
+Innisfil, ON, Canada:19.53135631357238
+Inukshuk Observatory, ON, Canada:20.93623856604902
+Iroquois Falls, ON, Canada:19.844485246128645
+Island Grove Observatory., ON, Canada:20.93623856604902
+Jock River Observatory, ON, Canada:19.818469415711288
+Kakabeka Falls, ON, Canada:20.907005520875074
+Kapuskasing, ON, Canada:19.08857201676072
+Kathik-B Observatory, ON, Canada:20.93623856604902
+Kawartha Observatory, ON, Canada:20.93623856604902
+Kemptville, ON, Canada:19.637488979692062
+Kendrick Astro Observatory, ON, Canada:17.258641668218985
+Kincardine, ON, Canada:19.736055367667724
+Kitchener-Waterloo, ON, Canada:17.758531901604186
+Lagoon City, ON, Canada:20.93623856604902
+Lake St. Peter Provincial Park, ON, Canada:21.962174475969
+Lake Superior Provincial Park, ON, Canada:21.994276336221525
+Lake of Bays, ON, Canada:21.516197162449853
+Lake of the Woods (North-East), ON, Canada:21.347286874631976
+Lancaster, ON, Canada:18.068762584182565
+Leamington, ON, Canada:18.674368421666674
+Lennox and Addington Dark Sky Viewing Area, ON, Canada:21.11474532722294
+Lincoln, ON, Canada:18.80753114585616
+Lloyd Manor Park, ON, Canada:20.93623856604902
+London, ON, Canada:20.271609979260916
+Long Point Provincial Park, ON, Canada:21.48403219612135
+Loon Call Observatory, ON, Canada:20.93623856604902
+Manitoulin Eco Park, ON, Canada:21.95611307259787
+Marten River Provincial Park, ON, Canada:21.952982510742558
+Mason Bald Observatory, ON, Canada:20.93623856604902
+Merrickville, ON, Canada:20.703332866886306
+Mew Lake Campground, ON, Canada:20.93623856604902
+Midland, ON, Canada:21.92368818505321
+Milton, ON, Canada:21.248225516523366
+Minakakis Observatory, ON, Canada:20.93623856604902
+Montreal River Harbour, ON, Canada:21.987116002198118
+Moosonee / Moose Factory, ON, Canada:19.940750893439063
+Mount Albert Lion's Club, ON, Canada:19.91851833759986
+Mount Forest, ON, Canada:20.354577181561762
+Mount Mould Observatory, ON, Canada:20.93623856604902
+Mount Nemo Observatory, ON, Canada:20.93623856604902
+Munro Park, ON, Canada:20.93623856604902
+Muskoka District Municipality, ON, Canada:21.27694400374175
+Nelsons Bay Observatory, ON, Canada:20.5911976181865
+New Liskeard, ON, Canada:19.913540109161776
+Newcastle Observatory, ON, Canada:19.841965354654885
+Niagara Falls, ON, Canada:17.75741985706702
+Norfolk County, ON, Canada:20.875460673448643
+North Frontenac Dark Sky Preserve, ON, Canada:21.807982074157998
+North Glengarry, ON, Canada:19.523302254902422
+OAOG Moose Creek, ON, Canada:20.93623856604902
+Oak Hills, ON, Canada:19.84553816820134
+Oakdale, ON, Canada:18.515453370310052
+Oakville, ON, Canada:17.577497680060876
+Old Hastings Observatory, ON, Canada:20.93623856604902
+Orangeville, ON, Canada:18.25378890558973
+Oxford Observatory, ON, Canada:21.39737254438421
+Oxtongue Lake, ON, Canada:20.93623856604902
+Parry Sound, ON, Canada:19.679917094080317
+Peawanuck, ON, Canada:21.66822378191869
+Pelee Island, ON, Canada:21.264962995211587
+Perth, ON, Canada:19.809025701721488
+Petawawa, ON, Canada:19.320607078253524
+Petawawa Terrace Provincial Nature Reserve, ON, Canada:20.07589132405651
+Peterborough, ON, Canada:18.606064551254608
+Pinhey's Point, ON, Canada:20.010219511015233
+Point Pelee National Park, ON, Canada:20.93623856604902
+Ponte di Legno Observatory, ON, Canada:20.93623856604902
+Port Burwell Provincial Park, ON, Canada:20.60307347886309
+Port Carling, ON, Canada:21.092328737440624
+Port Colborne, ON, Canada:19.095069651929876
+Port Perry, ON, Canada:19.392377894562543
+Port Perry Astronomical Observatory, ON, Canada:19.392377894562543
+Pte. au Baril, ON, Canada:21.726391085214487
+Quadeville Road, ON, Canada:21.750381304565643
+Restoule Provincial Park, ON, Canada:21.919792442297744
+Richmond Hill, ON, Canada:19.09936514728564
+Rideau Ferry Observatory, ON, Canada:21.193282888253282
+Rondeau Provincial Park, ON, Canada:21.30045873594501
+Sandy Flats Observatory, ON, Canada:20.93623856604902
+Seaway Observatory, ON, Canada:20.93623856604902
+Sharbot Lake, ON, Canada:20.93623856604902
+Sioux Lookout, ON, Canada:19.38052408514891
+SkyShed Observatories, ON, Canada:20.889331908543653
+Smiths Falls, ON, Canada:19.474570266932645
+South Baymouth, ON, Canada:21.616288688767956
+South Bruce Peninsula, ON, Canada:20.49045658191635
+St Catharines, ON, Canada:17.99830480599983
+St. Thomas, ON, Canada:19.011852581242216
+Starlight Cascade Observatory, ON, Canada:21.888659799582417
+Stirling-Rawdon, ON, Canada:20.499548133813782
+Stratford, ON, Canada:20.537781924563678
+Strathroy, ON, Canada:18.997202254977818
+Sydenham, ON, Canada:17.61280642363854
+Tatlock Quarry Outlook, ON, Canada:21.535568770921827
+Temiskaming Shores, ON, Canada:19.913540109161776
+The Blue Marble Observatory, ON, Canada:20.93623856604902
+The Glenelg Observatory, ON, Canada:20.93623856604902
+Thunder Bay Observatory, ON, Canada:18.17129430185206
+Tilbury, ON, Canada:18.005609113778107
+Tillsonburg, ON, Canada:19.02135647101807
+Tiny Marsh Provincial Wildlife Area, ON, Canada:21.002408065799
+Tobermory, ON, Canada:21.364141773620528
+Toronto, ON, Canada:16.943879664311748
+Toronto Islands, ON, Canada:16.943879664311748
+Torrance Barrens Dark-Sky Preserve, ON, Canada:21.567983482263994
+Trenton, ON, Canada:20.435750063523468
+Webequie Indian Reserve, ON, Canada:21.987803727018587
+Westport, ON, Canada:21.977375171976405
+Weymouth Pines Observatory, ON, Canada:20.93623856604902
+Whippoorwill Hill Observatory, ON, Canada:19.90322684837682
+WhistleStop  Observatory, ON, Canada:20.93623856604902
+White River, ON, Canada:21.647871275078305
+Wiarton, ON, Canada:20.49045658191635
+Willowbrook Observatory, ON, Canada:17.055300947752027
+Winchester, ON, Canada:19.68866969127821
+Woodbridge, ON, Canada:18.681256821838982
+York University Observatory, ON, Canada:17.048250984167236
+Cavendish, PE, Canada:21.389779871178156
+Charlottetown, PE, Canada:18.68154314641369
+North Cape, PE, Canada:19.76597605595586
+Poverty Beach Observatory, PE, Canada:20.93623856604902
+Slemon Park, PE, Canada:20.39667641160479
+West Point(PE), PE, Canada:20.93623856604902
+Akulivik, QC, Canada:21.215073404475916
+Amos, QC, Canada:16.662474999506454
+Baie-Comeau, QC, Canada:18.932116018149177
+Bellevue Observatory, QC, Canada:20.93623856604902
+Bishop's University Astronomical Observatory, QC, Canada:19.28504874001825
+Black Bear Adventures Quebec, QC, Canada:19.213984495412205
+Blanc-Sablon, QC, Canada:21.234408507564044
+Boisbriand, QC, Canada:17.500004089573082
+C.O.A.M.N.D., QC, Canada:20.93623856604902
+CAAL Farnham, QC, Canada:19.423615353177187
+CEGEP Beauce-Appalaches, QC, Canada:18.568048984361475
+Camping Portage (Laverendrie), QC, Canada:20.93623856604902
+Canton de Shefford, QC, Canada:20.405588056196592
+Cap-Chat, QC, Canada:20.669368256545344
+Centre écologique de Port-au-Saumon, QC, Canada:21.57936741756452
+Charlevoix Regional County Municipality, QC, Canada:19.725676424645275
+Chibougamau, QC, Canada:19.48129087608622
+Chicoutimi, QC, Canada:17.873700680274176
+Chisasibi, QC, Canada:21.941144230499532
+Club d'Astronomie Sirius du Saguenay, QC, Canada:17.746145823964934
+Contrecoeur, QC, Canada:19.512673055741143
+Cégep de Thetford, QC, Canada:19.068239446721776
+Domaine Saint-Bernard, QC, Canada:20.907640967279885
+Donnacona, QC, Canada:19.41199523760016
+Drummondville, QC, Canada:18.08193900821884
+Forestville, QC, Canada:20.4975135247752
+Forillon National Park, QC, Canada:20.93623856604902
+Gatineau Gliding Club, QC, Canada:17.652426323761993
+Havre-Saint-Pierre, QC, Canada:19.719027447625617
+Huntingdon, QC, Canada:17.84985957968117
+Kamouraska, QC, Canada:21.034526948131784
+Kangiqsujuaq, QC, Canada:20.260235424049906
+L'Assomption, QC, Canada:19.091250760860046
+La Malbaie, QC, Canada:19.72222676945197
+La Prairie, QC, Canada:17.8187281310787
+La Seigneurie du Triton, QC, Canada:21.942573351805
+Lac Gagnon, QC, Canada:21.772851415241295
+Lac Lovering, QC, Canada:20.75562889044703
+Lac Nominingue, QC, Canada:20.90114403748845
+Lac Sacacomie, QC, Canada:21.51755088091628
+Lac St-Joseph, QC, Canada:20.715037965262468
+Lac-Megantic, QC, Canada:19.992039060194234
+Lake MacDonald, QC, Canada:21.384514298697436
+Laval-West, QC, Canada:17.281935300226003
+Le Golf Sélect de Mirabel, QC, Canada:20.265889855473706
+Les Coteaux, QC, Canada:19.36969329580922
+Les Escoumins, QC, Canada:20.36065407210899
+Levis, QC, Canada:21.5305798828285
+Longueuil, QC, Canada:17.565861004747994
+Lorraine, QC, Canada:21.637037213123982
+Luskville Falls, QC, Canada:20.702766499091503
+Mont Ham-Nord, QC, Canada:21.474054268154976
+Mont-Laurier, QC, Canada:19.16334895712474
+Mont-Saint-Hilaire, QC, Canada:18.54982982126164
+Mont-Tremblant, QC, Canada:19.743979236295974
+Montmagny, QC, Canada:19.205963221200683
+Morin-Heights, QC, Canada:20.121806370525135
+Murdochville, QC, Canada:20.733614223744816
+Natashquan, QC, Canada:21.352434151983203
+Observatoire Alphonse-Tardif à St-Nérée, QC, Canada:20.93378161951596
+Observatoire Saint-Raymond, QC, Canada:19.692954490178998
+Observatoire St-gabriel Lalemant, QC, Canada:17.417099440327295
+Observatoire astronomique de Charlevoix, QC, Canada:20.85312239157102
+Observatoire astronomique du bois de Belle-Rivière, QC, Canada:19.554225815644617
+Observatoire de Daniel Brousseau de Sherbrooke, QC, Canada:17.991645954160923
+Observatoire de Gatineau, QC, Canada:17.652426323761993
+Observatoire de Leclercville, QC, Canada:20.827851953769933
+Observatoire de St-Felicien, QC, Canada:18.8298686276055
+Observatoire de l'Agence Spatiale Canadienne, QC, Canada:21.99999999864131
+Observatoire de la Découverte de Val-Bélair, QC, Canada:19.08599922176701
+Observatoire de la Montagne Coupée, QC, Canada:21.428860739149098
+Observatoire de la Pourvoirie St-Zénon, QC, Canada:21.672771764924267
+Observatoire du CEGEP de Lévis-Lauzon, QC, Canada:17.95998158929028
+Observatoire du Cégep de Trois-Rivières à Champlain, QC, Canada:20.71125812246088
+Optiques Fullum, QC, Canada:18.4236340725213
+Otterburn Park, QC, Canada:18.656606220036444
+Papineau Regional County Municipality, QC, Canada:20.430820305762868
+Parc Canadian de la Mauricie, QC, Canada:21.992146860068654
+Parc National d'Aiguebelle, QC, Canada:21.833660547487774
+Parc National du Mont-Orford, QC, Canada:20.207290534999885
+Parc du Mont Ste-Anne, QC, Canada:19.87740927140816
+Parc national d'Oka, QC, Canada:19.373682930874008
+Planétarium Rio Tinto Alcan de Montréal, QC, Canada:16.83048682249046
+Plouffe Observatory, QC, Canada:20.93623856604902
+Pointe Sainte-Foy, QC, Canada:17.80742879161574
+Pointe-au-Chêne, QC, Canada:20.87504727013542
+Pont Rouge Observatory, QC, Canada:19.740374690465156
+Port-Aux-Quilles Astronomical Observatory, QC, Canada:21.649647698698192
+Port-Cartier, QC, Canada:19.04883475963236
+Portail Étoilé de Saint-Pierre, QC, Canada:21.367720254449765
+Quaqtaq, QC, Canada:20.7410931495528
+Radar de Saint-Adolphe-d'Howard, QC, Canada:20.489234892266815
+Rang St-Joachim, QC, Canada:19.4033782690408
+Repentigny, QC, Canada:18.174934894907214
+Reserve Faunique La Verendrye, QC, Canada:21.97653825734035
+Rimouski, QC, Canada:18.325173415540856
+Riviere-du-Loup, QC, Canada:18.36754074705795
+Rivière-à-Pierre Village, QC, Canada:21.343469976836225
+Rouge Matawin, QC, Canada:21.799653300916216
+Rouyn-Noranda, QC, Canada:18.4419730155541
+Réserve Fauniques des Laurentides, QC, Canada:21.82114525218837
+SAPM à Hemmingford, QC, Canada:20.218850869621118
+Saguenay-Bagotville Airport (YBG), QC, Canada:20.93623856604902
+Saint-Agapit, QC, Canada:19.792860071483897
+Saint-Calixte, QC, Canada:19.97878921883181
+Saint-Camille-de-Lellis, QC, Canada:21.189390784004154
+Saint-Eustache, QC, Canada:17.74861272560189
+Saint-Felicien, QC, Canada:18.8298686276055
+Saint-Hugues, QC, Canada:20.232136086002555
+Saint-Hyacinthe, QC, Canada:17.940907875037862
+Saint-Lazare, QC, Canada:19.096685108363083
+Saint-Lin-Laurentides, QC, Canada:19.043699714307323
+Saint-Michel-des-Saints, QC, Canada:20.48211011907113
+Saint-Nicephore, QC, Canada:19.278687827473295
+Saint-Sauveur, QC, Canada:18.774238777497942
+Saint-Thomas-de-Caxton, QC, Canada:20.18439436164165
+Sainte-Anne-des-Monts, QC, Canada:19.73080027679347
+Sainte-Anne-des-Plaines, QC, Canada:18.768125978659295
+Sainte-Catherine, QC, Canada:17.694746368023424
+Sainte-Scholastique, QC, Canada:19.515593436704457
+Sainte-Sophie, QC, Canada:18.92050880818818
+Salaberry-de-Valleyfield, QC, Canada:18.423709608603538
+Shawinigan, QC, Canada:18.711605626114014
+Sherbrooke, QC, Canada:17.991645954160923
+Site d'observation de Lebel-sur-Quévillon, QC, Canada:19.771819954497794
+Sommet du Mont Tremblant, QC, Canada:19.743979236295974
+St-Jean-Sur-Richelieu, QC, Canada:18.21886129785753
+Ste-Agathe-des-Monts, QC, Canada:19.098018661364883
+Ste-Anne-des-Lacs, QC, Canada:19.6657377900669
+Sutton, QC, Canada:16.695212471487896
+Tadoussac, QC, Canada:20.524449078104368
+Thetford Mines, QC, Canada:18.927409359030605
+Tracy, QC, Canada:18.25744473903816
+Trois-Pistoles, QC, Canada:20.306055690250012
+Umiujaq, QC, Canada:20.527455475559155
+Val-des-Monts, QC, Canada:20.937549589763044
+Vaudreuil-Dorion, QC, Canada:18.01664080310763
+Victoriaville, QC, Canada:18.899565721248134
+Ville-Marie, QC, Canada:21.04506803436229
+Whiskyjack Observatory, QC, Canada:20.93623856604902
+ZEC des Nymphes, QC, Canada:21.52207908552994
+École Gabriel-Le Courtoi, QC, Canada:19.73080027679347
+Alsask Observatory, SK, Canada:21.62558738523541
+Assiniboia, SK, Canada:20.471881119491346
+Blue Mountain, SK, Canada:20.443140195000016
+Cypress Hills Dark-Sky Preserve - SSSP, SK, Canada:21.74956753835707
+Dirt Hills and Cactus Hills, SK, Canada:20.93623856604902
+Fort Qu'Appelle, SK, Canada:20.5484829712618
+Grasslands National Park (West), SK, Canada:20.93623856604902
+Humboldt, SK, Canada:21.90282376084448
+Katepwa Lake, SK, Canada:20.93623856604902
+La Ronge, SK, Canada:19.54321930401181
+Maple Creek, SK, Canada:21.89966554636373
+Moose Jaw, SK, Canada:18.534016987452333
+North Battleford, SK, Canada:19.013666239981973
+Old Man on His Back Ranch, SK, Canada:21.969316701450893
+Prince Albert, SK, Canada:18.381692332138414
+Rockglen, SK, Canada:21.57140511158835
+Saskatchewan Beach, SK, Canada:20.93623856604902
+Sleaford Observatory, SK, Canada:20.93623856604902
+Swift Current, SK, Canada:19.15382652557022
+Tufts Bay Campground, SK, Canada:20.93623856604902
+Waskesiu Lake, SK, Canada:20.991612740369607
+Wilkinson Memorial Observatory, SK, Canada:21.76588848172661
+Beaver Creek, YT, Canada:21.848938386195286
+Dempster Hwy, YT, Canada:21.97781705414671
+Faro, YT, Canada:17.950443204530917
+Haines Junction, YT, Canada:20.550027576803107
+Johnsons Crossing, YT, Canada:21.997079106411274
+Kluane Lake, YT, Canada:20.93623856604902
+Takhini Hot Springs, YT, Canada:20.93623856604902
+Little Cayman Island, Cayman Islands, Cayman Islands:21.962420477608628
+San Pedro Martir Observatory, BJ, Mexico:21.99147070362236
+Valle de Guadalupe, BJ, Mexico:20.94869209752219
+Chihuahua, CI, Mexico:18.291297120981046
+Alabama Observatory, AL, USA:21.061161608872826
+Alexander City, AL, USA:18.88119037136678
+Auburn-Opelika Airport, AL, USA:18.624642016131563
+Barnes Bend Acess Area, AL, USA:21.728126213114315
+Birmingham, AL, USA:17.32596946787298
+Chandler Mountain, AL, USA:20.79959996490983
+Conecuh National Forest, AL, USA:21.511996187964915
+Crawford Observatory, AL, USA:18.44265262389267
+Cullman County Rd, AL, USA:19.355017771087777
+Dauphin Island, AL, USA:20.13001265582706
+Deer Park, WA, USA:16.80784856239034
+Dothan, AL, USA:18.140564238373898
+Hanceville, AL, USA:19.704266494660487
+Huntsville, UT, USA:17.62464052773107
+Irondale, AL, USA:18.09603799805362
+James Wylie Shepherd Observatory, AL, USA:20.306962244410514
+Lewis Smith Lake Observatory, AL, USA:20.967959896494992
+Little River Canyon National Preserve, AL, USA:21.079574635497764
+Lookout Observatory, NC, USA:19.259490920638545
+Millers Ferry, AL, USA:21.612828318737094
+Mobile Regional Airport, AL, USA:18.54965390854243
+Montgomery, NY, USA:17.503005360971358
+Mt. Laurel Observatory, AL, USA:18.44850211326183
+Oak Mountain State Park, AL, USA:19.431484679361724
+Ohatchee's Observatory, AL, USA:20.364401001913887
+Phenix City, AL, USA:17.631791560755318
+Trussville, AL, USA:18.74883706104028
+Tuscaloosa, AL, USA:17.68415090484506
+Vestavia Hills Observatory, AL, USA:18.072894529147327
+Begich Boggs Visitor Center, AK, USA:21.70043287405539
+Brooks Camp Developed Area, AK, USA:21.999782227387346
+Coldfoot, AK, USA:21.70438966260106
+Denali National Park & Preserve -- Headquarters, AK, USA:21.99999999864131
+Eielson Visitor Center, AK, USA:21.999252202341264
+Girdwood, AK, USA:20.781699075902484
+Glennallen, AK, USA:20.93776063189518
+Haines, AK, USA:20.445418104317863
+Hatcher Pass Lodge, AK, USA:21.486740940708113
+Juneau, AK, USA:19.48526755283965
+K'esugi Ken Campground, AK, USA:21.992567275502555
+Kenai, AK, USA:19.070906120088004
+Knik River Swimming Hole, AK, USA:20.81143215766167
+Merle K. (Mudhole) Smith Airport, AK, USA:21.879465266735398
+Mt. Baldy, AK, USA:19.530476244902644
+Point MacKenzie, AK, USA:20.29428942851576
+Prudhoe Bay, AK, USA:17.313963325065878
+Sitka, AK, USA:19.975443594904863
+Talkeetna, AK, USA:21.197269361698957
+Three Forks Visitor's Center, AK, USA:21.068026777234323
+Venetie, AK, USA:18.304560920170598
+Ajo, AZ, USA:20.879179785151347
+Alamo Lake State Park, AZ, USA:21.95475479498042
+Anderson Mesa Station, AZ, USA:21.859897085972673
+Apache-Sitgreaves Observatory, AZ, USA:21.792457988262218
+Arizona Sky Village, AZ, USA:21.980298738155465
+Arizona-Sonora Desert Museum, AZ, USA:20.44759292908836
+Black Canyon City Star Party, AZ, USA:21.090695438380415
+Blue Hills Observatory, AZ, USA:18.63221798259633
+Boyce Thompson Arboretum, AZ, USA:21.241918323371365
+Bruce Brockett Trailhead, AZ, USA:21.753196233875574
+Bullhead City, AZ, USA:19.573171071101473
+Burro Creek Campground, AZ, USA:21.92628167180037
+Camp Creek, WV, USA:21.203182567242784
+Carefree, AZ, USA:19.661562810099767
+Chandler, AZ, USA:17.51992266197491
+Cordes Lakes Observatory, AZ, USA:21.379268270058997
+Cottonwood, CA, USA:20.376322709406843
+Desert Oasis Campground, AZ, USA:21.69780491753105
+Eureka Springs Ranch, AZ, USA:20.33090943703525
+Fairborn Observatory, AZ, USA:18.413299305191536
+Fountain Hills, AZ, USA:19.015447895717994
+GCC North Observatory, AZ, USA:18.247266075492767
+Gila Bend, AZ, USA:19.837942020099952
+Gilbert Rotary Centennial Observatory, AZ, USA:17.65972603350222
+Glenn Canyon's Wahweap district, AZ, USA:21.535613788010934
+Gov Aker Observatory, AZ, USA:20.805418094518842
+Grand Canyon Caverns, AZ, USA:21.9529410817761
+Grand Canyon Star Party (South Rim), AZ, USA:21.99667832137723
+Green Valley, AZ, USA:18.550283191020434
+Greer, AZ, USA:18.266665009725536
+Griffin Ranch, AZ, USA:18.98523513027765
+Homolovi State Park, AZ, USA:21.36020575386687
+Hualapai Valley Observatory, AZ, USA:21.88398938474571
+Jarnac Observatory, AZ, USA:20.037373751116323
+Johnson Ranch, AZ, USA:18.139944035639324
+Kartchner Caverns State Park, AZ, USA:21.692742616187335
+Kitt Peak, AZ, USA:21.82634181690471
+Lake Havasu City, AZ, USA:19.332921610582627
+Las Cienegas, AZ, USA:21.686155762997394
+Maricopa Observatory, AZ, USA:19.840042213863583
