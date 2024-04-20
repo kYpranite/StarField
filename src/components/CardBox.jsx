@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import bodies from "../utils/astronomicalBodies";
+import "./CardBoxStyle.css";
 
 const getSeason = (month) => {
   if (month >= 3 && month <= 5) {
