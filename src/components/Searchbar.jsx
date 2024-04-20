@@ -4,7 +4,7 @@ import "./SearchbarStyles.css";
 
 
 export default function Searchbar({changeSidebar}) {
-  function handleSidebar(event){
+  function handleSidebar(){
     changeSidebar((sidebar)=> !sidebar);
     console.log("focus");
   }
