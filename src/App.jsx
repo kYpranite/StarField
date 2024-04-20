@@ -4,13 +4,14 @@ import { useState } from "react";
 import SideBar from "./components/SideBar";
 import Searchbar from "./components/Searchbar";
 function App() {
+  const [chartData, setChartData] = useState([]);
   const [sideBar, setSidebar] = useState(false);
   const center = { lat: 34.7128, lng: -118.006 };
   console.log(sideBar);
   return (
     <APIProvider apiKey={import.meta.env.VITE_MAPS_API_KEY}>
-      <SideBar isOpen={sideBar}></SideBar>
-      <Searchbar sideBar={sideBar} changeSidebar={setSidebar}></Searchbar>
+      <SideBar isOpen={sideBar} chartData={chartData} setChartData={setChartData}></SideBar>
+      <Searchbar sideBar={sideBar} changeSidebar={setSidebar} setChartData={setChartData}></Searchbar>
       <div className="h-screen w-full">
         <Map
           onClick={() => {
