@@ -1,24 +1,17 @@
 import json
 
 import numpy as np
-#from sklearn.model_selection import train_test_split
-#from sklearn.linear_model import LinearRegression
-#from sklearn.metrics import mean_squared_error
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error
 
 
-data = {}
-with open("../scraper/data.txt", "r") as file:
-    for line in file.read().splitlines():
-        if line.count(":") > 0:
-            fields = line.split(":",2)
-            data[fields[1]] = json.loads(fields[2])
+with open("../scraper/first_half.json", "r") as file:
+    data = json.loads(file.read())
+with open("../scraper/second_half.json", "r") as file:
+    data2 = json.loads(file.read())
+data.update(data2)
 
-light = {}
-with open("../scraper/light_pollution.txt", "r") as file:
-    light_data = json.load(file)
-
-print(light_data)
-input("Press Enter to continue...")
 
 # Prepare the data
 X = np.column_stack((light_pollution, cloud_coverage))
