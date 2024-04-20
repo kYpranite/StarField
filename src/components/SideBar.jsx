@@ -1,21 +1,16 @@
-import React from "react";
-import Card from "./Card";
+import Cardbox from "./CardBox";
 
-const SideBar = () => {
+const SideBar = ({ isOpen }) => {
   return (
-    <div className="w-1/3 bg-white h-screen flex justify-center">
-      <div className="flex flex-wrap w-[90%] h-[50%] my-5 gap-y-7 gap-10 overflow-y-auto">
-        <Card text="abcd" image="images/95.png" />
-        <Card text="abcd" image="images/95.png" />
-        <Card text="abcd" image="images/95.png" />
-        <Card text="abcd" image="images/95.png" />
-        <Card text="abcd" image="images/95.png" />
-        <Card text="abcd" image="images/95.png" />
-        <Card text="abcd" image="images/95.png" />
-        <Card text="abcd" image="images/95.png" />
-      </div>
+    <div
+      className={`fixed top-0 left-0 w-[38%] bg-gray-900 h-screen flex justify-center z-20 pt-20 ${
+        isOpen ? "translate-x-0" : "-translate-x-full"
+      } ease-in-out duration-300`}
+    >
+      <Cardbox />
     </div>
   );
 };
 
 export default SideBar;
+ 
