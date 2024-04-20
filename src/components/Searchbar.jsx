@@ -1,13 +1,12 @@
 import { useEffect, useRef } from "react";
 import "./SearchbarStyles.css";
 
-
-
-export default function Searchbar({changeSidebar}) {
-  function handleSidebar(){
-    changeSidebar((sidebar)=> !sidebar);
+export default function Searchbar({ changeSidebar }) {
+  function handleSidebar() {
+    changeSidebar((sidebar) => !sidebar);
     console.log("focus");
   }
+
   const autoCompleteRef = useRef();
   const inputRef = useRef();
   const options = {
@@ -32,7 +31,7 @@ export default function Searchbar({changeSidebar}) {
       type="text"
       placeholder="Enter Location"
       onFocus={handleSidebar}
-      className="fixed top-6 left-[4%] p-6 text-sm border-gray-400 border-[1px] bg-gray-700 text-white w-[25%] h-11 z-30 rounded-3xl drop-shadow-md focus:outline-none focus:rounded-md focus:rounded-b-sm"
+      className="fixed top-[4%] left-[4%] p-6 text-sm border-gray-400 border-[1px] bg-gray-700 text-white w-[25%] h-11 z-30 rounded-3xl drop-shadow-md focus:outline-none focus:rounded-xl"
     />
   );
 }
