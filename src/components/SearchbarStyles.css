@@ -1,0 +1,18 @@
+.pac-container {
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px; 
+    background-color: rgb(55 65 81);
+    box-shadow: 0 0 #0000;
+    border: none;
+    
+}
+.pac-item,
+.pac-item-query {
+  color: #f7f7f7;
+  font-size: 0.8rem;
+  border: none;
+}
+.pac-item:hover {
+  background: #6666;
+}
