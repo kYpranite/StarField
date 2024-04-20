@@ -1,9 +1,10 @@
 import os
-import joblib
 
+import joblib
+import requests
 from dotenv import load_dotenv
-from flask import Flask, jsonify, request
 import google.generativeai as genai
+from flask import Flask, jsonify, request
 
 
 load_dotenv()
@@ -40,25 +41,38 @@ def predict():
     else:
         return jsonify({"error": "Invalid data"})
 
-@app.route("/api/chat")
+
+@app.route("/api/chat", methods=['POST'])
 def chat():
     '''
     Chatbot Endpoint
     '''
-    response = model.generate_content("The opposite of hot is")
-    return jsonify({"response": response.text})
+    if request.is_json:
+        data = request.get_json()
+        response = model.generate_content(f"Hi, you are a constellation expert on the 88 constellations. Respond to this user question: {data['message']}")
+        return jsonify({"response": response.text})
+    else:
+        return jsonify({"error": "Invalid data"})
 
-@app.route("/api/weather")
+
+@app.route("/api/weather", methods=['POST'])
 def weather():
     '''
     Predict weather from longitude and latitude.
     '''
-    latitude = 40.7128  # Example latitude (New York City)
-    longitude = -74.0060  # Example longitude (New York City)
-    url = f"https://api.openweathermap.org/data/2.5/weather?lat={latitude}&lon={longitude}&appid={open_weather_api_key}"
-    response = requests.get(url)
-    return jsonify({response: response.text})
-  
-    
+    if request.is_json:
+        data = request.get_json()
+        url = f"https://api.openweathermap.org/data/2.5/weather?lat={data['lat']}&lon={data['long']}&appid={open_weather_api_key}&units=metric"
+        response = requests.get(url).json()
+        return jsonify({
+            "humidity": response["main"]["humidity"],
+            "temperature": response["main"]["temp"],
+            "wind": response["wind"]["speed"] * 3.6,
+            "cloud": response["clouds"]["all"] / 10,
+        })
+    else:
+        return jsonify({"error": "Invalid data"})
+
+
 if __name__ == "__main__":
     app.run()
