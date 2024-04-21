@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 import ChatMessage from "./ChatMessage";
 
-export default function ChatbotWindow({ messages, setMessages }) {
+export default function ChatbotWindow({
+  messages,
+  setMessages,
+  setShowChatbot,
+}) {
   const [inputText, setInputText] = useState("");
 
   const renderMessage = (msg) => {
@@ -11,7 +15,7 @@ export default function ChatbotWindow({ messages, setMessages }) {
     return (
       <ChatMessage
         key={msg.parts.text}
-        sender={msg.role}
+        sender={msg.role === "model" ? "Gemini" : "Me"}
         text={msg.parts.text}
       />
     );
@@ -21,7 +25,17 @@ export default function ChatbotWindow({ messages, setMessages }) {
 
   return (
     <div className="flex flex-col h-3/5 w-1/4 mx-auto rounded-xl bg-gray-800 p-4 shadow-lg fixed z-50 bottom-10 right-10">
-      <h1 className="font-bold pb-2">Ask Gemini</h1>
+      <h1 className="font-bold w-[95%] text-lg">Ask Gemini</h1>
+      <button
+        className="fixed right-8 px-6"
+        onClick={() => setShowChatbot(false)}
+      >
+        <img
+          className="w-7"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/VisualEditor_-_Icon_-_Close_-_white.svg/1024px-VisualEditor_-_Icon_-_Close_-_white.svg.png"
+        ></img>
+      </button>
+
       <div className="flex-grow overflow-y-auto p-2">
         <div className="flex flex-col">
           {messages && messages.map((msg) => renderMessage(msg))}
