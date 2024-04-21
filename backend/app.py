@@ -42,6 +42,23 @@ def predict():
         return jsonify({"error": "Invalid data"})
 
 
+@app.route("/api/predicts", methods=['POST'])
+def predicts():
+    """
+    Predictions Endpoint
+    'Cloud Cover', 'Humidity', 'Wind', 'Temperature' -> 'Seeing'
+    """
+    if request.is_json:
+        resp = []
+        data = request.get_json()
+        for i in range(len(data["cloud"])):
+            prediction = visibility_model.predict([[data["cloud"][i], data["humidity"][i], data["wind"][i], data["temperature"][i]]])
+            resp.append(f"{prediction[0] * 20:.2f}%")
+        return jsonify({"predictions": resp})
+    else:
+        return jsonify({"error": "Invalid data"})
+
+
 @app.route("/api/chat", methods=['POST'])
 def chat():
     '''
