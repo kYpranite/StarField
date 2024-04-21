@@ -3,23 +3,39 @@ import { mapStyles } from "./mapStyles";
 import { useRef, useState } from "react";
 import SideBar from "./components/SideBar";
 import Searchbar from "./components/Searchbar";
-import ChatBot from "./components/Chatbot";
+import Chatbot from "./components/Chatbot";
+
 function App() {
   const [chartData, setChartData] = useState([]);
   const [sideBar, setSidebar] = useState(false);
+  const [showChatbot, setShowChatbot] = useState(false);
+  const handleButtonClick = () => {
+    setShowChatbot((showChatbot) => !showChatbot);
+  };
   const center = { lat: 34.7128, lng: -118.006 };
 
   const searchRef = useRef();
   console.log(sideBar);
   return (
     <APIProvider apiKey={import.meta.env.VITE_MAPS_API_KEY}>
-      <SideBar searchRef={searchRef} isOpen={sideBar} chartData={chartData} setChartData={setChartData}></SideBar>
-      <Searchbar searchRef={searchRef} sideBar={sideBar} changeSidebar={setSidebar} setChartData={setChartData}></Searchbar>
+      <SideBar
+        searchRef={searchRef}
+        isOpen={sideBar}
+        chartData={chartData}
+        setChartData={setChartData}
+      ></SideBar>
+      <Searchbar
+        searchRef={searchRef}
+        sideBar={sideBar}
+        changeSidebar={setSidebar}
+        setChartData={setChartData}
+      ></Searchbar>
       <div className="h-screen w-full">
-      <ChatBot/>
+        <Chatbot showChatbot={showChatbot} handleButtonClick={handleButtonClick}/>
         <Map
           onClick={() => {
             setSidebar(false);
+            setShowChatbot(false);
           }}
           disableDefaultUI={true}
           gestureHandling="greedy"
@@ -30,7 +46,6 @@ function App() {
         ></Map>
       </div>
     </APIProvider>
-
   );
 }
 
