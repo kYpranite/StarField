@@ -11,7 +11,7 @@ export default function SidebarConstellation({
         alt={constellationView.name}
         className="w-full h-[40%] object-cover"
       />
-      <div className="flex flex-col gap-y-2">
+      <div className="flex flex-col gap-y-2 p-5">
         <h1 className="font-semibold text-3xl text-left mx-6 mb-2">
           {constellationView.name}
         </h1>

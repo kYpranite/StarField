@@ -27,8 +27,6 @@ function App() {
 
   const INITIAL_CENTER = { lat: 34.07, lng: -118.439 };
 
-  const [center, setCenter] = useState(INITIAL_CENTER);
-  const [radius, setRadius] = useState(43000);
   const numPoints = 4;
 
   const calculateCirclePoints = (center, radius, numPoints) => {
@@ -45,12 +43,9 @@ function App() {
     return points;
   };
 
-  const changeCenter = (newCenter) => {
-    if (!newCenter) return;
-    setCenter({ lng: newCenter.lng(), lat: newCenter.lat() });
-  };
 
-  const points = calculateCirclePoints(center, radius, numPoints); 
+  const points = calculateCirclePoints(INITIAL_CENTER, 43000, numPoints);
+
   return (
     <APIProvider apiKey={import.meta.env.VITE_MAPS_API_KEY}>
       <SideBar
@@ -83,20 +78,18 @@ function App() {
           gestureHandling="greedy"
           defaultZoom={9}
           minZoom={4}
-          defaultCenter={center}
+          defaultCenter={INITIAL_CENTER}
           styles={mapStyles}
         >
           <Circle
-            radius={radius}
-            center={center}
-            onRadiusChanged={setRadius}
-            onCenterChanged={changeCenter}
+            radius={43000}
+            center={INITIAL_CENTER}
             strokeColor={"#b3b00c"}
             strokeOpacity={1}
             strokeWeight={3}
             fillColor={"#c7b512"}
             fillOpacity={0.3}
-          />
+        />
         </Map>
       </div>
     </APIProvider>
