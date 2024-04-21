@@ -42,6 +42,23 @@ def predict():
         return jsonify({"error": "Invalid data"})
 
 
+@app.route("/api/predicts", methods=['POST'])
+def predicts():
+    """
+    Predictions Endpoint
+    'Cloud Cover', 'Humidity', 'Wind', 'Temperature' -> 'Seeing'
+    """
+    if request.is_json:
+        resp = []
+        data = request.get_json()
+        for i in range(len(data["cloud"])):
+            prediction = visibility_model.predict([[data["cloud"][i], data["humidity"][i], data["wind"][i], data["temperature"][i]]])
+            resp.append(f"{prediction[0] * 20:.2f}%")
+        return jsonify({"predictions": resp})
+    else:
+        return jsonify({"error": "Invalid data"})
+
+
 @app.route("/api/chat", methods=['POST'])
 def chat():
     '''
@@ -73,6 +90,26 @@ def weather():
     else:
         return jsonify({"error": "Invalid data"})
 
+
+@app.route("/api/weathers", methods=['POST'])
+def weathers():
+    '''
+    Predict weather from longitude and latitude.
+    Gets data for several days.
+    '''
+    if request.is_json:
+        data = request.get_json()
+        url = f"https://api.open-meteo.com/v1/forecast?latitude={data['lat']}&longitude={data['long']}&hourly=temperature_2m,relative_humidity_2m,cloud_cover,wind_speed_10m"
+        response = requests.get(url).json()
+        return jsonify({
+            "times": response["hourly"]["time"],
+            "temperature": response["hourly"]["temperature_2m"],
+            "humidity": response["hourly"]["relative_humidity_2m"],
+            "cloud": response["hourly"]["cloud_cover"],
+            "wind": response["hourly"]["wind_speed_10m"],
+        })
+    else:
+        return jsonify({"error": "Invalid data"})
 
 if __name__ == "__main__":
     app.run()
