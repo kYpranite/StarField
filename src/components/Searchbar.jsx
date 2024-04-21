@@ -1,7 +1,9 @@
 import { useEffect, useRef } from "react";
 import { useMap } from "@vis.gl/react-google-maps";
 
-import { calculateBest  } from "../utils/bestPoints";
+import { calculateBest } from "../utils/bestPoints";
+
+import { grabChartData } from "../utils/dataPoints";
 
 export default function Searchbar({
   searchRef,
@@ -61,7 +63,7 @@ export default function Searchbar({
       const longitude = await place.geometry.location.lng();
       const center = { lat: latitude, lng: longitude };
       searchRef.current.scrollIntoView({ behavior: "smooth" });
-      // setChartData(dummyData);
+      setChartData(await grabChartData(latitude, longitude));
 
       map.panTo(center);
       calculateBest(center);
