@@ -3,7 +3,12 @@ import { useMap } from "@vis.gl/react-google-maps";
 
 import "./SearchbarStyles.css";
 
-export default function Searchbar({ searchRef, changeSidebar, setChartData }) {
+export default function Searchbar({
+  searchRef,
+  changeSidebar,
+  setChartData,
+  setCenter,
+}) {
   const map = useMap();
   formatted_data = {}
 
@@ -61,13 +66,14 @@ export default function Searchbar({ searchRef, changeSidebar, setChartData }) {
     );
     autoCompleteRef.current.addListener("place_changed", async function () {
       const place = await autoCompleteRef.current.getPlace();
-      console.log(place)
+      console.log(place);
       console.log(place.name); // place holder, place object contains lat and long of entered address
       const latitude = await place.geometry.location.lat();
       const longitude = await place.geometry.location.lng();
       searchRef.current.scrollIntoView({ behavior: "smooth" });
       setChartData(dummyData);
-      map.panTo({lat:latitude,lng:longitude});
+      map.panTo({ lat: latitude, lng: longitude });
+      setCenter({ lat: latitude, lng: longitude });
     });
   }, [map]);
 

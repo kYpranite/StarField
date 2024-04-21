@@ -49,7 +49,7 @@ function App() {
     setCenter({ lng: newCenter.lng(), lat: newCenter.lat() });
   };
 
-  const points = calculateCirclePoints(center, radius, numPoints); 
+  const points = calculateCirclePoints(center, radius, numPoints);
   return (
     <APIProvider apiKey={import.meta.env.VITE_MAPS_API_KEY}>
       <SideBar
@@ -65,6 +65,7 @@ function App() {
         sideBar={sideBar}
         changeSidebar={setSidebar}
         setChartData={setChartData}
+        setCenter={setCenter}
       ></Searchbar>
       <div className="h-screen w-full">
         <Chatbot
