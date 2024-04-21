@@ -15,7 +15,7 @@ export default function Searchbar({
   const map = useMap();
 
   function handleSidebar() {
-    changeSidebar((sidebar) => !sidebar);
+    changeSidebar(true);
   }
 
   const autoCompleteRef = useRef();

@@ -71,6 +71,11 @@ function App() {
             strokeWeight={3}
             fillColor={"#c7b512"}
             fillOpacity={0.3}
+            onClick={() => {
+              setSidebar(false);
+              setShowChatbot(false);
+              setConstellationView({ ...constellationView, open: false });
+            }}
           />
         </Map>
       </div>
