@@ -4,7 +4,6 @@ import { useRef, useState } from "react";
 import SideBar from "./components/SideBar";
 import Searchbar from "./components/Searchbar";
 import Chatbot from "./components/Chatbot";
-import { Marker } from "@react-google-maps/api";
 import { Circle } from "./components/shapes/Circle";
 
 function App() {
