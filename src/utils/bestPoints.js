@@ -73,6 +73,7 @@ export const calculateBest = async (center, radius, pts) => {
     .then((response) => response.json())
     .then((data) => {
       let i = 0;
+      console.log(values)
       for (let percent of data.predictions) {
         if (percent > max) {
           max = percent;
