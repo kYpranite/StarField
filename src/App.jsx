@@ -3,6 +3,7 @@ import { mapStyles } from "./mapStyles";
 import { useRef, useState } from "react";
 import SideBar from "./components/SideBar";
 import Searchbar from "./components/Searchbar";
+import ChatBot from "./components/Chatbot";
 function App() {
   const [chartData, setChartData] = useState([]);
   const [sideBar, setSidebar] = useState(false);
@@ -15,6 +16,7 @@ function App() {
       <SideBar searchRef={searchRef} isOpen={sideBar} chartData={chartData} setChartData={setChartData}></SideBar>
       <Searchbar searchRef={searchRef} sideBar={sideBar} changeSidebar={setSidebar} setChartData={setChartData}></Searchbar>
       <div className="h-screen w-full">
+      <ChatBot/>
         <Map
           onClick={() => {
             setSidebar(false);
@@ -28,6 +30,7 @@ function App() {
         ></Map>
       </div>
     </APIProvider>
+
   );
 }
 

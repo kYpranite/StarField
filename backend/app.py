@@ -9,7 +9,7 @@ from flask import Flask, jsonify, request
 
 load_dotenv()
 open_weather_api_key=os.getenv("OPEN_WEATHER_API_KEY")
-genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
+genai.configure(api_key=os.getenv('GEMINI_API_KEY'))
 
 app = Flask(__name__)
 visibility_model = joblib.load("model.joblib")
@@ -22,7 +22,7 @@ def test():
     Test Endpoint
     """
     return jsonify({"message": "Hello, World!"})
-    
+
 
 @app.route("/api/predict", methods=['POST'])
 def predict():
