@@ -4,7 +4,6 @@ import { useRef, useState } from "react";
 import SideBar from "./components/SideBar";
 import Searchbar from "./components/Searchbar";
 import Chatbot from "./components/Chatbot";
-import { Marker } from "@react-google-maps/api";
 import { Circle } from "./components/shapes/Circle";
 
 function App() {
@@ -131,18 +130,18 @@ function App() {
           gestureHandling="greedy"
           defaultZoom={9}
           minZoom={4}
-          defaultCenter={center}
+          defaultCenter={INITIAL_CENTER}
           styles={mapStyles}
         >
           <Circle
-            radius={radius}
-            center={center}
+            radius={43000}
+            center={INITIAL_CENTER}
             strokeColor={"#b3b00c"}
             strokeOpacity={1}
             strokeWeight={3}
             fillColor={"#c7b512"}
             fillOpacity={0.3}
-          />
+        />
         </Map>
       </div>
     </APIProvider>
