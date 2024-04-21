@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ChatMessage from "./ChatMessage";
 
 export default function ChatbotWindow({
@@ -8,10 +8,15 @@ export default function ChatbotWindow({
 }) {
   const [inputText, setInputText] = useState("");
 
+  const scrollToBottom = () => {
+    scrollDiv.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  useEffect(() => {
+    scrollToBottom();
+  }, [messages]);
+
   const renderMessage = (msg) => {
-    if (scrollDiv.current) {
-      scrollDiv.current.scrollIntoView({ behavior: "smooth" });
-    }
     return (
       <ChatMessage
         key={msg.parts.text}
