@@ -16,6 +16,10 @@
 .pac-item:hover {
   background: #6666;
 }
+
+.pac-item-selected {
+  background: #616060;
+}
 .pac-item {
   padding: 6px 12px;
 }
