@@ -68,7 +68,6 @@ export default function ChatbotWindow({
                 },
               ]);
 
-              console.log(messages);
             }
           }}
           className="flex-grow px-3 py-2 border-[1px] border-gray-400 rounded-lg focus:outline-none"

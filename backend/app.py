@@ -61,7 +61,7 @@ def predicts():
         data = request.get_json()
         for i in range(len(data["cloud"])):
             prediction = visibility_model.predict([[data["cloud"][i], data["humidity"][i], data["wind"][i], data["temperature"][i]]])
-            resp.append(f"{prediction[0] * 20:.2f}%")
+            resp.append(prediction[0] * 20)
         return jsonify({"predictions": resp})
     else:
         return jsonify({"error": "Invalid data"})
@@ -100,7 +100,6 @@ def chats():
     '''
     if request.is_json:
         data = request.get_json()
-        print(data)
         chat = model.start_chat(history=data[:-1])
         response = chat.send_message(data[-1]["parts"]["text"])
         return jsonify({"response": response.text})
