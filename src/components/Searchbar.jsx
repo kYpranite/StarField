@@ -57,7 +57,6 @@ export default function Searchbar({ searchRef, changeSidebar, setChartData }) {
       searchRef.current.scrollIntoView({ behavior: "smooth" });
       setChartData(dummyData);
       map.panTo({lat:latitude,lng:longitude});
-      map.setZoom(12); 
     });
   }, [map]);
 
