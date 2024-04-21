@@ -33,3 +33,16 @@ r = requests.post("http://127.0.0.1:5000/api/chat", json={
     "message": "what is the bird constellation"
 })
 print(r.text)
+
+r = requests.post("http://127.0.0.1:5000/api/chats", json={
+    "message": "what is the bird constellation",
+    "history": [
+         {
+            "parts": {
+                "text": "What is a bird constellation",
+            },
+            "role": "user",
+        },
+    ]
+})
+print(r.text)
