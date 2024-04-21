@@ -95,8 +95,8 @@ def chats():
     if request.is_json:
         data = request.get_json()
         print(data)
-        chat = model.start_chat(history=data["history"])
-        response = chat.send_message(data["message"])
+        chat = model.start_chat(history=data[:-1])
+        response = chat.send_message(data[-1]["parts"]["text"])
         return jsonify({"response": response.text})
     else:
         return jsonify({"error": "Invalid data"})

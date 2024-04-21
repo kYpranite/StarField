@@ -8,7 +8,13 @@ export default function ChatbotWindow({ messages, setMessages }) {
     if (scrollDiv.current) {
       scrollDiv.current.scrollIntoView({ behavior: "smooth" });
     }
-    return <ChatMessage key={msg.key} sender={msg.sender} text={msg.text} />;
+    return (
+      <ChatMessage
+        key={msg.parts.text}
+        sender={msg.role}
+        text={msg.parts.text}
+      />
+    );
   };
 
   const scrollDiv = React.useRef();
@@ -36,12 +42,13 @@ export default function ChatbotWindow({ messages, setMessages }) {
               setMessages([
                 ...messages,
                 {
-                  text: inputText,
-                  sender: "User",
-                  key: Math.floor(Math.random() * 100000),
+                  parts: {
+                    text: inputText,
+                  },
+                  role: "user",
                 },
-              ]); 
-              
+              ]);
+
               console.log(messages);
             }
           }}

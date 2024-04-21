@@ -2,51 +2,21 @@ import React, { useState } from "react";
 import ChatbotButton from "./ChatbotButton";
 import ChatbotWindow from "./ChatbotWindow";
 
-function convertMessagesFormat(messages) {
-  let newFormat = {
-    message: "",
-    history: [],
-  };
-
-  if (messages.length === 0) {
-    return newFormat;
-  }
-
-  // Set the most recent message's text as the main message
-  newFormat.message = messages[messages.length - 1].text;
-
-  // Loop through the messages to populate the history array
-  messages.forEach((message) => {
-    let role = message.sender === "User" ? "user" : "gemini";
-
-    let historyItem = {
-      parts: {
-        text: message.text,
-      },
-      role: role,
-    };
-
-    newFormat.history.push(historyItem);
-  });
-
-  return newFormat;
-}
-
 const Chatbot = ({ showChatbot, handleButtonClick }) => {
   const [messages, setMessages] = useState([
     {
-      key: -1,
-      text: "Not sure what you are looking at? Describe it to me and I'll see if I can help.",
-      sender: "Gemini",
+      parts: {
+        text: "Not sure what you are looking at? Describe it to me and I'll see if I can help!",
+      },
+      role: "model",
     },
   ]);
 
-  if (messages[messages.length - 1].sender === "User") {
-    console.log(convertMessagesFormat(messages))
+  if (messages[messages.length - 1].role === "user") {
     const requestOptions = {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(convertMessagesFormat(messages)),
+      body: JSON.stringify(messages),
     };
     fetch("http://localhost:5000/api/chats", requestOptions)
       .then((response) => response.json())
@@ -54,12 +24,12 @@ const Chatbot = ({ showChatbot, handleButtonClick }) => {
         setMessages([
           ...messages,
           {
-            text: data,
-            sender: "Gemini",
-            key: Math.floor(Math.random() * 100000),
+            parts: {
+              text: data["response"],
+            },
+            role: "model",
           },
         ]);
-        console.log(convertMessagesFormat(messages));
       });
   }
 
