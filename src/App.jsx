@@ -71,6 +71,7 @@ function App() {
       <div className="h-screen w-full">
         <Chatbot
           showChatbot={showChatbot}
+          setShowChatbot={setShowChatbot}
           handleButtonClick={handleButtonClick}
         />
         <Map

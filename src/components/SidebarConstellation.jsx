@@ -11,14 +11,14 @@ export default function SidebarConstellation({
         alt={constellationView.name}
         className="w-full h-[40%] object-cover"
       />
-      <div>
-        <h1 className="font-semibold text-3xl text-left mx-6">{constellationView.name}</h1>
+      <div className="flex flex-col gap-y-2">
+        <h1 className="font-semibold text-3xl text-left mx-6 mb-2">
+          {constellationView.name}
+        </h1>
         <h1 className="font-semibold text-left mx-6">
           {constellationView.visibility}
         </h1>
-        <h1 className="text-left mx-6 my-2">
-          {constellationView.information}
-        </h1>
+        <h1 className="text-left mx-6 my-2">{constellationView.information}</h1>
         <h1 className="font-bold text-left mx-6 my-2">
           {constellationView.best_viewing_equipment}
         </h1>

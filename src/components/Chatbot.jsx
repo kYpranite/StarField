@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ChatbotButton from "./ChatbotButton";
 import ChatbotWindow from "./ChatbotWindow";
 
-const Chatbot = ({ showChatbot, handleButtonClick }) => {
+const Chatbot = ({ showChatbot, handleButtonClick, setShowChatbot }) => {
   const [messages, setMessages] = useState([
     {
       parts: {
@@ -36,7 +36,11 @@ const Chatbot = ({ showChatbot, handleButtonClick }) => {
   return (
     <>
       {showChatbot ? (
-        <ChatbotWindow messages={messages} setMessages={setMessages} />
+        <ChatbotWindow
+          messages={messages}
+          setMessages={setMessages}
+          setShowChatbot={setShowChatbot}
+        />
       ) : (
         <ChatbotButton handleButtonClick={handleButtonClick} />
       )}
