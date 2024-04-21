@@ -17,7 +17,7 @@ function App() {
 
   const searchRef = useRef();
 
-  const INITIAL_CENTER = { lat: 41.1897, lng: -96.0627 };
+  const INITIAL_CENTER = { lat: 34.07, lng: -118.439 };
 
   const [center, setCenter] = useState(INITIAL_CENTER);
   const [radius, setRadius] = useState(43000);
@@ -63,13 +63,11 @@ function App() {
             center={center}
             onRadiusChanged={setRadius}
             onCenterChanged={changeCenter}
-            strokeColor={"#0c4cb3"}
+            strokeColor={"#b3b00c"}
             strokeOpacity={1}
             strokeWeight={3}
-            fillColor={"#3b82f6"}
+            fillColor={"#c7b512"}
             fillOpacity={0.3}
-            editable
-            draggable
           />
         </Map>
       </div>
