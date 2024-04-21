@@ -81,19 +81,21 @@ function App() {
         humidity: values["humidity"],
         cloud: values["cloud"],
         wind: values["wind"],
-      }).then((response) => response.json())
-      .then((data) => {
-        let i = 0;
-        for (let percent of data.predictions) {
-          if (percent > max) {
-            max = percent;
-            location = values.coords[i];
+      })
+        .then((response) => response.json())
+        .then((data) => {
+          let i = 0;
+          for (let percent of data.predictions) {
+            if (percent > max) {
+              max = percent;
+              location = values.coords[i];
+            }
+            i++;
           }
-          i++;
-        }
-      
-      },
+        }),
     });
+    console.log(location);
+    console.log(max);
   };
 
   return (
