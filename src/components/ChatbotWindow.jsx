@@ -41,9 +41,11 @@ export default function ChatbotWindow({ messages, setMessages }) {
                   key: Math.floor(Math.random() * 100000),
                 },
               ]); 
+              
+              console.log(messages);
             }
           }}
-          className="flex-grow p-2 border-[1px] border-gray-400 rounded-lg focus:outline-none"
+          className="flex-grow px-3 py-2 border-[1px] border-gray-400 rounded-lg focus:outline-none"
         />
       </div>
     </div>
