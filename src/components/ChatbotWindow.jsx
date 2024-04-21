@@ -40,7 +40,8 @@ export default function ChatbotWindow({ messages, setMessages }) {
                   sender: "User",
                   key: Math.floor(Math.random() * 100000),
                 },
-              ]);
+              ]); 
+              
               console.log(messages);
             }
           }}
