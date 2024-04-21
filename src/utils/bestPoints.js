@@ -33,15 +33,16 @@ export const calculateBest = async (center, radius, pts) => {
     })
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
         values["times"].push(...data["times"]);
         values["temperature"].push(...data["temperature"]);
         values["humidity"].push(...data["humidity"]);
         values["cloud"].push(...data["cloud"]);
         values["wind"].push(...data["wind"]);
-        values["coords"].push(point);
+        values["coords"].push(new Array(data["wind"].length).fill(point));
       });
   }
+
+  values["coords"] = values["coords"].flat();
 
   await fetch("http://localhost:5000/api/predicts", {
     method: "POST",
@@ -56,6 +57,7 @@ export const calculateBest = async (center, radius, pts) => {
     .then((response) => response.json())
     .then((data) => {
       let i = 0;
+      console.log(values)
       for (let percent of data.predictions) {
         if (percent > max) {
           max = percent;

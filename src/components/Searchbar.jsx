@@ -65,7 +65,7 @@ export default function Searchbar({
       // setChartData(dummyData);
 
       map.panTo(center);
-      calculateBest(center);
+      calculateBest(center, 1000, 4);
     });
   }, [map]);
 
