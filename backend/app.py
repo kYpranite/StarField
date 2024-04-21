@@ -18,7 +18,10 @@ genai.configure(api_key=os.getenv('GEMINI_API_KEY'))
 app = Flask(__name__)
 CORS(app)
 visibility_model = joblib.load("model.joblib")
-model = genai.GenerativeModel('gemini-1.5-pro-latest')
+model = genai.GenerativeModel(
+    'gemini-1.5-pro-latest',
+    system_instruction="You are a constellation expert on the 88 constellations. Respond to user questions and remind them you are a constellation master if they steer off topic. Reply in a friendly and informative manner, but limit yourself to 5 sentences at a time maximum. Do not use markdown."
+)
 
 
 @app.route("/api")
@@ -98,8 +101,8 @@ def chats():
     if request.is_json:
         data = request.get_json()
         print(data)
-        chat = model.start_chat(history=data["history"])
-        response = chat.send_message(data["message"])
+        chat = model.start_chat(history=data[:-1])
+        response = chat.send_message(data[-1]["parts"]["text"])
         return jsonify({"response": response.text})
     else:
         return jsonify({"error": "Invalid data"})

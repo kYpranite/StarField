@@ -4,7 +4,7 @@ import { useRef, useState } from "react";
 import SideBar from "./components/SideBar";
 import Searchbar from "./components/Searchbar";
 import Chatbot from "./components/Chatbot";
-
+import { Marker } from "@react-google-maps/api";
 import { Circle } from "./components/shapes/Circle";
 
 function App() {
@@ -29,12 +29,28 @@ function App() {
 
   const [center, setCenter] = useState(INITIAL_CENTER);
   const [radius, setRadius] = useState(43000);
+  const numPoints = 4;
+
+  const calculateCirclePoints = (center, radius, numPoints) => {
+    const points = [];
+    for (let i = 0; i < numPoints; i++) {
+      const angle = (i / numPoints) * 2 * Math.PI;
+      const lat = center.lat + (radius * Math.sin(angle)) / 111111;
+      const lng =
+        center.lng +
+        (radius * Math.cos(angle)) /
+          (111111 * Math.cos((center.lat * Math.PI) / 180));
+      points.push({ lat, lng });
+    }
+    return points;
+  };
 
   const changeCenter = (newCenter) => {
     if (!newCenter) return;
     setCenter({ lng: newCenter.lng(), lat: newCenter.lat() });
   };
 
+  const points = calculateCirclePoints(center, radius, numPoints);
 
   return (
     <APIProvider apiKey={import.meta.env.VITE_MAPS_API_KEY}>
@@ -55,6 +71,7 @@ function App() {
       <div className="h-screen w-full">
         <Chatbot
           showChatbot={showChatbot}
+          setShowChatbot={setShowChatbot}
           handleButtonClick={handleButtonClick}
         />
         <Map

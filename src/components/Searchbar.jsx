@@ -48,6 +48,10 @@ export default function Searchbar({ searchRef, changeSidebar, setChartData }) {
     autoCompleteRef.current.addListener("place_changed", async function () {
       const place = await autoCompleteRef.current.getPlace();
       console.log({ place }); // place holder, place object contains lat and long of entered address
+      const latitude = place.geometry.location.lat();
+      const longitude = place.geometry.location.lng();
+      console.log(latitude);
+      console.log(longitude);
       searchRef.current.scrollIntoView({ behavior: "smooth" });
       setChartData(dummyData);
     });
