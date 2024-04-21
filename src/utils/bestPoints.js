@@ -12,14 +12,14 @@ export const calculateCirclePoints = (center, radius, numPoints) => {
   return points;
 };
 
-export const calculateBest = async (center) => {
-  const points = calculateCirclePoints(center, 20000, 4);
+export const calculateBest = async (center, radius, pts) => {
+  const points = calculateCirclePoints(center, radius, pts);
   let max = 0;
   let location = null;
   let values = {
     coords: [],
     times: [],
-    temperatures: [],
+    temperature: [],
     humidity: [],
     cloud: [],
     wind: [],
@@ -33,28 +33,21 @@ export const calculateBest = async (center) => {
     })
       .then((response) => response.json())
       .then((data) => {
+        console.log(data);
         values["times"].push(...data["times"]);
-        values["temperatures"].push(...data["temperature"]);
+        values["temperature"].push(...data["temperature"]);
         values["humidity"].push(...data["humidity"]);
         values["cloud"].push(...data["cloud"]);
         values["wind"].push(...data["wind"]);
         values["coords"].push(point);
       });
   }
-  console.log(
-    JSON.stringify({
-      temperatures: values["temperatures"],
-      humidity: values["humidity"],
-      cloud: values["cloud"],
-      wind: values["wind"],
-    })
-  );
 
   await fetch("http://localhost:5000/api/predicts", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
-      temperatures: values["temperatures"],
+      temperature: values["temperature"],
       humidity: values["humidity"],
       cloud: values["cloud"],
       wind: values["wind"],
@@ -62,7 +55,7 @@ export const calculateBest = async (center) => {
   })
     .then((response) => response.json())
     .then((data) => {
-      console.log("EASDASDAS");
+      console.log(data);
       let i = 0;
       for (let percent of data.predictions) {
         if (percent > max) {
@@ -71,7 +64,7 @@ export const calculateBest = async (center) => {
         }
         i++;
       }
-    }),
-    console.log(location);
+    });
+  console.log(location);
   console.log(max);
 };
