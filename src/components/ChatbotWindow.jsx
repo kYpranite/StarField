@@ -21,7 +21,7 @@ export default function ChatbotWindow({ messages, setMessages }) {
 
   return (
     <div className="flex flex-col h-3/5 w-1/4 mx-auto rounded-xl bg-gray-800 p-4 shadow-lg fixed z-50 bottom-10 right-10">
-      <h1 className="font-bold">Ask Gemini</h1>
+      <h1 className="font-bold pb-2">Ask Gemini</h1>
       <div className="flex-grow overflow-y-auto p-2">
         <div className="flex flex-col">
           {messages && messages.map((msg) => renderMessage(msg))}
