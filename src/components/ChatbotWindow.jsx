@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ChatMessage from "./ChatMessage";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faX } from "@fortawesome/free-solid-svg-icons";
 
 export default function ChatbotWindow({
   messages,
@@ -32,13 +34,10 @@ export default function ChatbotWindow({
     <div className="flex flex-col h-3/5 w-1/4 mx-auto rounded-xl bg-gray-800 p-4 shadow-lg fixed z-50 bottom-10 right-10">
       <h1 className="font-bold w-[95%] text-lg mb-2">Ask Gemini</h1>
       <button
-        className="fixed right-8 px-6"
+        className="absolute right-4 top-4 px-2 hover:bg-gray-700 rounded-xl"
         onClick={() => setShowChatbot(false)}
       >
-        <img
-          className="w-7"
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/VisualEditor_-_Icon_-_Close_-_white.svg/1024px-VisualEditor_-_Icon_-_Close_-_white.svg.png"
-        ></img>
+        <FontAwesomeIcon icon={faX} />
       </button>
 
       <div className="flex-grow overflow-y-auto p-2">
