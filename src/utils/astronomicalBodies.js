@@ -128,33 +128,168 @@ const bodies = {
     }
   ],
   summer: [
-    "Apus",
-    "Draco",
-    "Pavo",
-    "Aquila",
-    "Equuleus",
-    "Sagitta",
-    "Ara",
-    "Hercules",
-    "Sagittarius",
-    "Capricornus",
-    "Indus",
-    "Scorpius",
-    "Circinus",
-    "Libra",
-    "Scutum",
-    "Corona Australis",
-    "Lyra",
-    "Serpens",
-    "Corona Borealis",
-    "Microscopium",
-    "Telescopium",
-    "Cygnus",
-    "Norma",
-    "Triangulum Australe",
-    "Delphinus",
-    "Ophiuchus",
-    "Vulpecula",
+    {
+      "name": "Apus",
+      "visibility": "Visible from April to August",
+      "information": "Apus represents a bird of paradise and is located in the southern sky. It was named in the late 16th century by navigators Pieter Dirkszoon Keyser and Frederick de Houtman. Apus contains faint stars and is notable for hosting several deep-sky objects visible through medium to large telescopes.",
+      "best_viewing_equipment": "Medium to large telescopes are recommended to observe its deep-sky objects."
+    },
+    {
+      "name": "Draco",
+      "visibility": "Visible throughout the year",
+      "information": "Draco, the dragon, is a large and sprawling constellation that winds around the northern celestial pole. It is one of the 48 constellations listed by Ptolemy and is steeped in mythology, often depicted as the dragon fought by Hercules. Draco features several double stars and deep-sky objects.",
+      "best_viewing_equipment": "Small to medium telescopes can be used to view double stars and nebulae."
+    },
+    {
+      "name": "Pavo",
+      "visibility": "Visible from June to October",
+      "information": "Pavo, the peacock, is a southern constellation first introduced by Johann Bayer in the 17th century. It is rich in bright stars and deep-sky objects, including globular clusters and galaxies. Pavo is part of the southern sky's 'birds' theme, alongside Phoenix and Grus.",
+      "best_viewing_equipment": "A medium telescope is ideal for viewing its globular clusters and galaxies."
+    },
+    {
+      "name": "Aquila",
+      "visibility": "Visible from May to November",
+      "information": "Aquila represents the eagle and is best known for its brightest star, Altair. The constellation was also one of the 48 constellations listed by Ptolemy and plays a role in the story of Zeus and Ganymede. Aquila contains significant deep-sky objects, such as the Eagle Nebula.",
+      "best_viewing_equipment": "Binoculars and small telescopes are sufficient to view its main stars and some nebulae."
+    },
+    {
+      "name": "Equuleus",
+      "visibility": "Visible from June to October",
+      "information": "Equuleus, the little horse, is the second smallest constellation in the sky, representing a foal. It contains mostly dim stars and is located near the constellation Pegasus. Despite its size and faintness, it is rich in history and mythology.",
+      "best_viewing_equipment": "A small to medium telescope is recommended due to the faintness of its stars."
+    },
+    {
+      "name": "Sagitta",
+      "visibility": "Visible from June to October",
+      "information": "Sagitta, representing the arrow, is one of the oldest constellations known. Although small, it is distinct because of its arrow shape. It is not home to any particularly bright stars, but it hosts the globular cluster M71, which can be a treat under the right conditions.",
+      "best_viewing_equipment": "Small telescopes are best for viewing M71."
+    },
+    {
+      "name": "Ara",
+      "visibility": "Visible from April to September",
+      "information": "Ara, the altar, is located in the southern hemisphere and is associated with the altar used by the gods in Greek mythology to swear their allegiance before battling the Titans. The constellation features several bright stars and interesting deep-sky objects.",
+      "best_viewing_equipment": "A small to medium telescope will reveal nebulae and star clusters."
+    },
+    {
+      "name": "Hercules",
+      "visibility": "Visible from April to November",
+      "information": "Hercules is one of the largest northern constellations and represents the mythical hero Hercules. It is best known for the Great Globular Cluster (M13), one of the most prominent globular clusters visible in the northern hemisphere, alongside many other deep-sky objects.",
+      "best_viewing_equipment": "Binoculars for M13; larger telescopes can resolve individual stars within the cluster."
+    },
+    {
+      "name": "Sagittarius",
+      "visibility": "Visible from June to October",
+      "information": "Sagittarius is known as 'the archer' and is a zodiac constellation. It is rich in nebulae and star clusters, including the famous Lagoon Nebula (M8). This constellation is also significant for marking the direction of the Galactic Center of the Milky Way.",
+      "best_viewing_equipment": "Binoculars and small telescopes are ideal for exploring its nebulae and star clusters."
+    },
+    {
+      "name": "Capricornus",
+      "visibility": "Visible from July to November",
+      "information": "Capricornus, 'the goat', is one of the oldest recognized constellations and is part of the zodiac. It represents the forest god Pan, who transformed into a sea-goat to escape from the monster Typhon. Capricornus is notable for several double stars and the globular cluster M30.",
+      "best_viewing_equipment": "Small telescopes or binoculars to view double stars and M30."
+    },
+    {
+      "name": "Indus",
+      "visibility": "Visible from June to October",
+      "information": "Indus, representing the Indian, was created in the late 16th century by Dutch navigators. It does not contain any particularly bright stars but has a rich history in celestial cartography. It is located between the better-known constellations Tucana and Grus.",
+      "best_viewing_equipment": "Medium telescopes are best for observing its faint stars."
+    },
+    {
+      "name": "Scorpius",
+      "visibility": "Visible from May to September",
+      "information": "Scorpius, the scorpion, is a prominent constellation in the zodiac. It is easy to recognize due to its striking resemblance to a scorpion, with the red giant star Antares marking its heart. Scorpius is a treasure trove of bright stars, star clusters, and nebulae.",
+      "best_viewing_equipment": "Naked eye for general observation; binoculars and small telescopes for star clusters and nebulae."
+    },
+    {
+      "name": "Circinus",
+      "visibility": "Visible from April to August",
+      "information": "Circinus, representing the compasses used by draftsmen, is a small and faint constellation in the southern sky. It was introduced by Nicolas Louis de Lacaille in the 18th century. While not prominent, it features some interesting double stars and nebulae.",
+      "best_viewing_equipment": "Small to medium telescopes to resolve its double stars and observe nebulae."
+    },
+    {
+      "name": "Libra",
+      "visibility": "Visible from May to September",
+      "information": "Libra, the scales, is associated with the balance of justice and is one of the zodiac constellations. It features the bright stars Zubeneschamali and Zubenelgenubi, which represent the balance's pans. Libra's history is deeply intertwined with that of its neighbor, Scorpius.",
+      "best_viewing_equipment": "Naked eye to view its main stars; binoculars can reveal fainter stars."
+    },
+    {
+      "name": "Scutum",
+      "visibility": "Visible from June to October",
+      "information": "Scutum, representing the shield, was created by Johannes Hevelius in the 17th century. It is notable for the Wild Duck Cluster (M11), one of the richest and most compact open clusters known. The constellation, while small, is rich in deep-sky objects.",
+      "best_viewing_equipment": "Binoculars or a small telescope to observe the Wild Duck Cluster."
+    },
+    {
+      "name": "Corona Australis",
+      "visibility": "Visible from May to September",
+      "information": "Corona Australis, or the Southern Crown, is a small constellation in the southern sky that represents a crown. It is one of the smallest constellations, but it is quite bright and features several notable deep-sky objects, including the Corona Australis Nebula.",
+      "best_viewing_equipment": "Binoculars or a small telescope to view its nebulae and star clusters."
+    },
+    {
+      "name": "Lyra",
+      "visibility": "Visible from May to October",
+      "information": "Lyra, representing the lyre, is a small constellation but very noticeable due to its brightest star, Vega, one of the brightest stars in the night sky. Lyra also contains the famous Ring Nebula (M57), a popular target for amateur astronomers.",
+      "best_viewing_equipment": "Naked eye to view Vega; small to medium telescopes for the Ring Nebula and double stars."
+    },
+    {
+      "name": "Serpens",
+      "visibility": "Visible from April to October",
+      "information": "Serpens, the only constellation divided into two non-contiguous parts, Serpens Caput (the head) and Serpens Cauda (the tail), represents the snake held by Ophiuchus. It contains the Eagle Nebula, famous for the 'Pillars of Creation' image captured by the Hubble Space Telescope.",
+      "best_viewing_equipment": "Small telescopes are sufficient for nebulae; binoculars for general structure."
+    },
+    {
+      "name": "Corona Borealis",
+      "visibility": "Visible from April to September",
+      "information": "Corona Borealis, the Northern Crown, is a small constellation in the northern sky that is easily recognizable for its semi-circular arrangement of stars. According to myth, it represents the crown given by Dionysus to Ariadne. The constellation is not only beautiful but also hosts several interesting exoplanets.",
+      "best_viewing_equipment": "Visible with the naked eye; binoculars can enhance the view of its stars."
+    },
+    {
+      "name": "Microscopium",
+      "visibility": "Visible from July to October",
+      "information": "Microscopium, the microscope, is a small constellation in the southern hemisphere created by Lacaille in the 18th century. It is faint with few notable features but serves as a reminder of the age of scientific enlightenment and the tool it represents.",
+      "best_viewing_equipment": "A medium telescope is necessary to make out its few notable stars and features."
+    },
+    {
+      "name": "Telescopium",
+      "visibility": "Visible from June to October",
+      "information": "Telescopium, representing the telescope, is another constellation created by Lacaille to honor the scientific instruments. It is not well known and is composed mostly of dim stars, but it includes some interesting deep-sky objects that can be explored with a good telescope.",
+      "best_viewing_equipment": "Medium to large telescopes are recommended for its deep-sky objects."
+    },
+    {
+      "name": "Cygnus",
+      "visibility": "Visible from May to November",
+      "information": "Cygnus, the swan, flies along the Milky Way and is one of the most recognizable constellations in the northern hemisphere. It features Deneb, a brilliant star that forms part of the Summer Triangle. The constellation is also home to Cygnus X-1, a famous X-ray source believed to be a black hole.",
+      "best_viewing_equipment": "Naked eye for the overall shape; binoculars and small telescopes for nebulae like the North America Nebula."
+    },
+    {
+      "name": "Norma",
+      "visibility": "Visible from May to September",
+      "information": "Norma, representing the right angle, is a small and faint constellation in the southern sky, introduced by Lacaille. It is surrounded by other constellations representing scientific instruments. Norma is used mainly for celestial navigation rather than for its star gazing appeal.",
+      "best_viewing_equipment": "A small to medium telescope is required to discern its sparse stars."
+    },
+    {
+      "name": "Triangulum Australe",
+      "visibility": "Visible from April to September",
+      "information": "Triangulum Australe, the Southern Triangle, is easily recognizable due to its almost equilateral triangle shape. This constellation is brighter and more prominent than its northern counterpart, Triangulum, and serves as a useful navigational marker in the southern hemisphere.",
+      "best_viewing_equipment": "Visible with the naked eye; binoculars can help observe its star clusters."
+    },
+    {
+      "name": "Delphinus",
+      "visibility": "Visible from June to October",
+      "information": "Delphinus, representing the dolphin, is a small but distinct constellation in the northern sky. According to Greek mythology, it commemorates the dolphin that saved the poet Arion. It features several interesting double stars and is a favorite among amateur astronomers.",
+      "best_viewing_equipment": "Binoculars or a small telescope to view its double stars and small nebulae."
+    },
+    {
+      "name": "Ophiuchus",
+      "visibility": "Visible from May to September",
+      "information": "Ophiuchus represents the serpent bearer and lies between Scorpius to the west and Sagittarius to the east. This large constellation straddles the celestial equator and is part of the zodiac. It is rich in both mythology and deep-sky objects, including several well-known nebulae.",
+      "best_viewing_equipment": "Binoculars for nebulae; small to medium telescopes for star clusters."
+    },
+    {
+      "name": "Vulpecula",
+      "visibility": "Visible from June to October",
+      "information": "Vulpecula, the little fox, is located in the middle of the Summer Triangle, making it easy to find despite its faint stars. Initially known as 'Vulpecula et Anser' (the fox and the goose), it contains the Dumbbell Nebula (M27), a famous planetary nebula.",
+      "best_viewing_equipment": "Small telescopes are adequate for the Dumbbell Nebula and other features."
+    }
   ],
   fall: [
     {

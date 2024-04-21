@@ -2,6 +2,7 @@ import os
 
 import joblib
 import requests
+from flask_cors import CORS
 from dotenv import load_dotenv
 import google.generativeai as genai
 from flask import Flask, jsonify, request
@@ -12,6 +13,7 @@ open_weather_api_key=os.getenv("OPEN_WEATHER_API_KEY")
 genai.configure(api_key=os.getenv('GEMINI_API_KEY'))
 
 app = Flask(__name__)
+CORS(app)
 visibility_model = joblib.load("model.joblib")
 model = genai.GenerativeModel('gemini-1.5-pro-latest')
 
@@ -92,8 +94,9 @@ def chats():
     '''
     if request.is_json:
         data = request.get_json()
-        chat = model.start_chat(history=data["history"])
-        response = chat.send_message(data["message"])
+        print(data)
+        chat = model.start_chat(history=data[:-1])
+        response = chat.send_message(data[-1]["parts"]["text"])
         return jsonify({"response": response.text})
     else:
         return jsonify({"error": "Invalid data"})
