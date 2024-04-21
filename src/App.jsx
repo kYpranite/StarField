@@ -5,6 +5,8 @@ import SideBar from "./components/SideBar";
 import Searchbar from "./components/Searchbar";
 import Chatbot from "./components/Chatbot";
 
+import { Circle } from "./components/shapes/Circle";
+
 function App() {
   const [chartData, setChartData] = useState([]);
   const [sideBar, setSidebar] = useState(false);
@@ -12,10 +14,19 @@ function App() {
   const handleButtonClick = () => {
     setShowChatbot((showChatbot) => !showChatbot);
   };
-  const center = { lat: 34.7128, lng: -118.006 };
 
   const searchRef = useRef();
-  console.log(sideBar);
+
+  const INITIAL_CENTER = { lat: 41.1897, lng: -96.0627 };
+
+  const [center, setCenter] = useState(INITIAL_CENTER);
+  const [radius, setRadius] = useState(43000);
+
+  const changeCenter = (newCenter) => {
+    if (!newCenter) return;
+    setCenter({ lng: newCenter.lng(), lat: newCenter.lat() });
+  };
+
   return (
     <APIProvider apiKey={import.meta.env.VITE_MAPS_API_KEY}>
       <SideBar
@@ -31,7 +42,10 @@ function App() {
         setChartData={setChartData}
       ></Searchbar>
       <div className="h-screen w-full">
-        <Chatbot showChatbot={showChatbot} handleButtonClick={handleButtonClick}/>
+        <Chatbot
+          showChatbot={showChatbot}
+          handleButtonClick={handleButtonClick}
+        />
         <Map
           onClick={() => {
             setSidebar(false);
@@ -43,7 +57,21 @@ function App() {
           minZoom={4}
           defaultCenter={center}
           styles={mapStyles}
-        ></Map>
+        >
+          <Circle
+            radius={radius}
+            center={center}
+            onRadiusChanged={setRadius}
+            onCenterChanged={changeCenter}
+            strokeColor={"#0c4cb3"}
+            strokeOpacity={1}
+            strokeWeight={3}
+            fillColor={"#3b82f6"}
+            fillOpacity={0.3}
+            editable
+            draggable
+          />
+        </Map>
       </div>
     </APIProvider>
   );
