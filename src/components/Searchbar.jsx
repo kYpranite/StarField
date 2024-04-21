@@ -37,13 +37,12 @@ export default function Searchbar({
       const latitude = await place.geometry.location.lat();
       const longitude = await place.geometry.location.lng();
       const center = { lat: latitude, lng: longitude };
+
+      let { location, max } = await calculateBest(center, 20000, 4);
+      setCenter(location);
+      map.panTo(location);
       searchRef.current.scrollIntoView({ behavior: "smooth" });
-
-      setCenter(center);
-      map.panTo(center);
-
       setChartData(await grabChartData(latitude, longitude));
-      calculateBest(center);
     });
   }, [map]);
 

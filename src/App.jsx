@@ -24,7 +24,6 @@ function App() {
 
   const searchRef = useRef();
 
-  const radius = 40000;
   const INITIAL_CENTER = { lat: 34.07, lng: -118.439 };
   const [center, setCenter] = useState(INITIAL_CENTER);
 
@@ -65,7 +64,7 @@ function App() {
           styles={mapStyles}
         >
           <Circle
-            radius={43000}
+            radius={20000}
             center={center}
             strokeColor={"#b3b00c"}
             strokeOpacity={1}

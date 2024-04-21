@@ -7,7 +7,7 @@ export const calculateCirclePoints = (center, radius, numPoints) => {
       center.lng +
       (radius * Math.cos(angle)) /
         (111111 * Math.cos((center.lat * Math.PI) / 180));
-    points.push({ lat, long });
+    points.push({ lat: lat, long: long });
   }
   return points;
 };
@@ -25,7 +25,7 @@ export const calculateBest = async (center, radius, pts) => {
     wind: [],
   };
 
-  for (let point of points) {
+  /*for (let point of points) {
     await fetch("http://localhost:5000/api/weathers", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -33,15 +33,32 @@ export const calculateBest = async (center, radius, pts) => {
     })
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
         values["times"].push(...data["times"]);
         values["temperature"].push(...data["temperature"]);
         values["humidity"].push(...data["humidity"]);
         values["cloud"].push(...data["cloud"]);
         values["wind"].push(...data["wind"]);
-        values["coords"].push(point);
+        values["coords"].push(...new Array(data["wind"].length).fill(point));
       });
-  }
+  }*/
+  const fetchPromises = points.map((point) =>
+    fetch("http://localhost:5000/api/weathers", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(point),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        values["times"].push(...data["times"]);
+        values["temperature"].push(...data["temperature"]);
+        values["humidity"].push(...data["humidity"]);
+        values["cloud"].push(...data["cloud"]);
+        values["wind"].push(...data["wind"]);
+        values["coords"].push(...new Array(data["wind"].length).fill(point));
+      })
+  );
+
+  await Promise.all(fetchPromises);
 
   await fetch("http://localhost:5000/api/predicts", {
     method: "POST",
@@ -64,6 +81,7 @@ export const calculateBest = async (center, radius, pts) => {
         i++;
       }
     });
-  console.log(location);
-  console.log(max);
+
+  location = { lat: location.lat, lng: location.long, long: location.long };
+  return { location, max };
 };
