@@ -30,7 +30,7 @@ export default function ChatbotWindow({
 
   return (
     <div className="flex flex-col h-3/5 w-1/4 mx-auto rounded-xl bg-gray-800 p-4 shadow-lg fixed z-50 bottom-10 right-10">
-      <h1 className="font-bold w-[95%] text-lg">Ask Gemini</h1>
+      <h1 className="font-bold w-[95%] text-lg mb-2">Ask Gemini</h1>
       <button
         className="fixed right-8 px-6"
         onClick={() => setShowChatbot(false)}
