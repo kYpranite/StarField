@@ -72,6 +72,33 @@ def chat():
         return jsonify({"error": "Invalid data"})
 
 
+@app.route("/api/chats", methods=['POST'])
+def chats():
+    '''
+    Chatbot Endpoint with history
+
+    message = user message
+
+    history = [
+        parts {
+            text: "In one sentence, explain how a computer works to a young child."
+        }
+        role: "user"
+        , parts {
+        text: "A computer is like a smart helper that can store information, do math problems, and follow our instructions to make things happen."
+        }
+        role: "model"
+    ]
+    '''
+    if request.is_json:
+        data = request.get_json()
+        chat = model.start_chat(history=data["history"])
+        response = chat.send_message(data["message"])
+        return jsonify({"response": response.text})
+    else:
+        return jsonify({"error": "Invalid data"})
+
+
 @app.route("/api/weather", methods=['POST'])
 def weather():
     '''
