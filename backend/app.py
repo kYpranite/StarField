@@ -74,5 +74,25 @@ def weather():
         return jsonify({"error": "Invalid data"})
 
 
+@app.route("/api/weathers", methods=['POST'])
+def weathers():
+    '''
+    Predict weather from longitude and latitude.
+    Gets data for several days.
+    '''
+    if request.is_json:
+        data = request.get_json()
+        url = f"https://api.open-meteo.com/v1/forecast?latitude={data['lat']}&longitude={data['long']}&hourly=temperature_2m,relative_humidity_2m,cloud_cover,wind_speed_10m"
+        response = requests.get(url).json()
+        return jsonify({
+            "times": response["hourly"]["time"],
+            "temperature": response["hourly"]["temperature_2m"],
+            "humidity": response["hourly"]["relative_humidity_2m"],
+            "cloud": response["hourly"]["cloud_cover"],
+            "wind": response["hourly"]["wind_speed_10m"],
+        })
+    else:
+        return jsonify({"error": "Invalid data"})
+
 if __name__ == "__main__":
     app.run()
