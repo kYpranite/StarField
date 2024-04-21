@@ -11,13 +11,19 @@ const SideBar = ({ searchRef, isOpen, chartData, setChartData }) => {
       } ease-in-out duration-300`}
     >
       <div className="p-5">
-        <h1 className="font-bold text-left">Visible Constellations</h1>
+        <h1 className="font-bold text-left my-2">Visible Constellations</h1>
         <Cardbox />
       </div>
       <hr className="w-full border-[0.5px] border-gray-400"></hr>
       <div ref={searchRef} className="h-[50%] w-[100%] p-5">
         <h1 className="font-bold text-left">Visibility Predictions</h1>
-        {chartData.length ? <VisibilityChart data={chartData}/> : <h1>Chart will load after a location is inputted!</h1>}
+        {chartData.length ? (
+          <VisibilityChart data={chartData} />
+        ) : (
+          <h1 className="text-gray-300">
+            Chart will load after a location is inputted!
+          </h1>
+        )}
       </div>
     </div>
   );

@@ -16,3 +16,5 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.gm-style iframe + div { border:none!important; }
