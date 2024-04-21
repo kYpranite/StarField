@@ -41,7 +41,7 @@ export default function Searchbar({ searchRef, changeSidebar, setChartData }) {
       type="text"
       placeholder="Enter Location"
       onFocus={handleSidebar}
-      className="fixed top-[4%] left-[4%] p-6 text-sm border-gray-400 border-[1px] bg-gray-700 text-white w-[25%] h-11 z-30 rounded-3xl drop-shadow-md focus:outline-none focus:rounded-xl"
+      className="fixed top-[2%] left-[4%] p-6 text-sm border-gray-400 border-[1px] bg-gray-700 text-white w-[25%] h-11 z-30 rounded-3xl drop-shadow-md focus:outline-none focus:rounded-xl"
     />
   );
 }

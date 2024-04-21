@@ -9,6 +9,14 @@ function App() {
   const [chartData, setChartData] = useState([]);
   const [sideBar, setSidebar] = useState(false);
   const [showChatbot, setShowChatbot] = useState(false);
+  const [constellationView, setConstellationView] = useState({
+    name: "",
+    visibility: "",
+    information: "",
+    best_viewing_equipment: "",
+    open: false,
+  });
+
   const handleButtonClick = () => {
     setShowChatbot((showChatbot) => !showChatbot);
   };
@@ -23,6 +31,8 @@ function App() {
         isOpen={sideBar}
         chartData={chartData}
         setChartData={setChartData}
+        constellationView={constellationView}
+        setConstellationView={setConstellationView}
       ></SideBar>
       <Searchbar
         searchRef={searchRef}
@@ -31,11 +41,15 @@ function App() {
         setChartData={setChartData}
       ></Searchbar>
       <div className="h-screen w-full">
-        <Chatbot showChatbot={showChatbot} handleButtonClick={handleButtonClick}/>
+        <Chatbot
+          showChatbot={showChatbot}
+          handleButtonClick={handleButtonClick}
+        />
         <Map
           onClick={() => {
             setSidebar(false);
             setShowChatbot(false);
+            setConstellationView({ ...constellationView, open: false });
           }}
           disableDefaultUI={true}
           gestureHandling="greedy"

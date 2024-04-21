@@ -2,11 +2,11 @@ export default function ChatbotButton({ handleButtonClick }) {
   return (
     <button
       onClick={handleButtonClick}
-      className="fixed bottom-5 z-50 right-5 p-3 bg-gray-600 text-white rounded-full shadow-lg hover:bg-gray-700 transition duration-300 ease-in-out transform hover:scale-105"
+      className="fixed bottom-12 z-50 right-10 p-3 bg-gray-600 text-white rounded-full shadow-lg hover:bg-gray-700 transition duration-300 ease-in-out transform hover:scale-105"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="h-6 w-6"
+        className="h-10 w-10"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
