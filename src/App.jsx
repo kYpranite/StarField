@@ -8,7 +8,7 @@ import Chatbot from "./components/Chatbot";
 import { Circle } from "./components/shapes/Circle";
 
 function App() {
-  const [chartData, setChartData] = useState([]);
+  const [chartData, setChartData] = useState({});
   const [sideBar, setSidebar] = useState(false);
   const [showChatbot, setShowChatbot] = useState(false);
   const [constellationView, setConstellationView] = useState({
@@ -34,6 +34,7 @@ function App() {
     if (!newCenter) return;
     setCenter({ lng: newCenter.lng(), lat: newCenter.lat() });
   };
+
 
   return (
     <APIProvider apiKey={import.meta.env.VITE_MAPS_API_KEY}>

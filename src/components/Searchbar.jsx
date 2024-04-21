@@ -2,14 +2,32 @@ import { useEffect, useRef } from "react";
 import "./SearchbarStyles.css";
 
 export default function Searchbar({ searchRef, changeSidebar, setChartData }) {
-  const dummyData = [
-    { time: "20:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 10 },
-    { time: "22:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 20 },
-    { time: "00:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 40 },
-    { time: "02:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 30 },
-    { time: "04:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 20 },
-    { time: "06:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 0 },
-  ];
+  const dummyData = {
+    "02-20-24": [
+      { time: "20:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 10 },
+      { time: "22:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 5 },
+      { time: "00:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 45 },
+      { time: "02:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 21 },
+      { time: "04:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 10 },
+      { time: "06:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 0 },
+    ],
+    "02-21-24": [
+      { time: "20:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 10 },
+      { time: "22:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 20 },
+      { time: "00:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 40 },
+      { time: "02:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 30 },
+      { time: "04:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 20 },
+      { time: "06:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 0 },
+    ],
+    "02-22-24": [
+      { time: "20:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 2 },
+      { time: "22:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 25 },
+      { time: "00:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 30 },
+      { time: "02:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 35 },
+      { time: "04:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 10 },
+      { time: "06:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 0 },
+    ]
+  };
   function handleSidebar() {
     changeSidebar((sidebar) => !sidebar);
     console.log("focus");
@@ -30,7 +48,7 @@ export default function Searchbar({ searchRef, changeSidebar, setChartData }) {
     autoCompleteRef.current.addListener("place_changed", async function () {
       const place = await autoCompleteRef.current.getPlace();
       console.log({ place }); // place holder, place object contains lat and long of entered address
-      searchRef.current.scrollIntoView({behavior: "smooth"})  
+      searchRef.current.scrollIntoView({ behavior: "smooth" });
       setChartData(dummyData);
     });
   }, []);

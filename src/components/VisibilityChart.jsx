@@ -9,6 +9,8 @@ import {
   Tooltip,
 } from "recharts";
 
+import { useState } from "react";
+
 const CustomTooltip = ({ active, payload, label }) => {
   if (active && payload && payload.length) {
     const payloadData = payload[0]["payload"];
@@ -37,12 +39,12 @@ const CustomTooltip = ({ active, payload, label }) => {
   return null;
 };
 
-export default function VisibilityChart({ data }) {
+export default function VisibilityChart({ data, chartDate }) {
 
   return (
     <ResponsiveContainer width="100%" height="90%" className="mx-auto">
       <AreaChart
-        data={data}
+        data={Object.values(data)[chartDate]}
         margin={{ top: 20, right: 30, left: 0, bottom: 0 }}
       >
         <XAxis dataKey="time" height={45} domain={["20:00", "06:00"]}>
