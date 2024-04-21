@@ -1,7 +1,8 @@
 import { useEffect, useRef } from "react";
 import { useMap } from "@vis.gl/react-google-maps";
-
 import { calculateBest  } from "../utils/bestPoints";
+
+import "./SearchbarStyles.css"
 
 export default function Searchbar({
   searchRef,
