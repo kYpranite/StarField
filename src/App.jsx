@@ -60,7 +60,6 @@ function App() {
         sideBar={sideBar}
         changeSidebar={setSidebar}
         setChartData={setChartData}
-        setCenter={setCenter}
       ></Searchbar>
       <div className="h-screen w-full">
         <Chatbot

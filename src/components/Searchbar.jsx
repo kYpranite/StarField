@@ -10,16 +10,6 @@ export default function Searchbar({
   setCenter,
 }) {
   const map = useMap();
-  formatted_data = {}
-
-  for time in enumerate(response["hourly"]["time"]):
-    formatted_data[time] = {    
-      "time": time,
-      "cloud": response[time]["cloud_cover"],
-      "humidity": response[time]["relative_humidity_2m"],
-      "windSpeed": response[time]["wind_speed_10m"],
-      "visibility": response[time]["visibility"],
-    }
 
   // const dummyData = {
   //   "02-20-24": [
@@ -83,7 +73,7 @@ export default function Searchbar({
       type="text"
       placeholder="Enter Location"
       onFocus={handleSidebar}
-      className="fixed top-[2%] left-[4%] p-6 text-sm border-gray-400 border-[1px] bg-gray-700 text-white w-[25%] h-11 z-30 rounded-3xl drop-shadow-md focus:outline-none focus:rounded-xl"
+      className="fixed top-[2%] left-[3%] p-6 text-sm border-gray-400 border-[1px] bg-gray-700 text-white w-[25%] h-11 z-30 rounded-3xl drop-shadow-md focus:outline-none focus:rounded-xl"
     />
   );
 }
