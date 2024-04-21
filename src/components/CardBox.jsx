@@ -19,7 +19,6 @@ const getSeason = (month) => {
 const CardBox = ({ setConstellationView, season }) => {
   // const currentDate = new Date();
   // const currentMonth = currentDate.getMonth() + 1;
-  console.log(season);
   const currentSeason = season.toLowerCase();
   return (
     <>

@@ -4,7 +4,7 @@ import { calculateBest } from "../utils/bestPoints";
 
 import { grabChartData } from "../utils/dataPoints";
 
-import "./SearchbarStyles.css"
+import "./SearchbarStyles.css";
 
 export default function Searchbar({
   searchRef,
@@ -14,32 +14,6 @@ export default function Searchbar({
 }) {
   const map = useMap();
 
-  // const dummyData = {
-  //   "02-20-24": [
-  //     { time: "20:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 10 },
-  //     { time: "22:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 5 },
-  //     { time: "00:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 45 },
-  //     { time: "02:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 21 },
-  //     { time: "04:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 10 },
-  //     { time: "06:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 0 },
-  //   ],
-  //   "02-21-24": [
-  //     { time: "20:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 10 },
-  //     { time: "22:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 20 },
-  //     { time: "00:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 40 },
-  //     { time: "02:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 30 },
-  //     { time: "04:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 20 },
-  //     { time: "06:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 0 },
-  //   ],
-  //   "02-22-24": [
-  //     { time: "20:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 2 },
-  //     { time: "22:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 25 },
-  //     { time: "00:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 30 },
-  //     { time: "02:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 35 },
-  //     { time: "04:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 10 },
-  //     { time: "06:00", cloud: 50, humidity: 20, windSpeed: 10, visibility: 0 },
-  //   ],
-  // };
   function handleSidebar() {
     changeSidebar((sidebar) => !sidebar);
   }
@@ -64,9 +38,11 @@ export default function Searchbar({
       const longitude = await place.geometry.location.lng();
       const center = { lat: latitude, lng: longitude };
       searchRef.current.scrollIntoView({ behavior: "smooth" });
-      setChartData(await grabChartData(latitude, longitude));
 
+      setCenter(center);
       map.panTo(center);
+
+      setChartData(await grabChartData(latitude, longitude));
       calculateBest(center);
     });
   }, [map]);

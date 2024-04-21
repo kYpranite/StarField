@@ -28,7 +28,6 @@ function App() {
   const INITIAL_CENTER = { lat: 34.07, lng: -118.439 };
   const [center, setCenter] = useState(INITIAL_CENTER);
 
-
   return (
     <APIProvider apiKey={import.meta.env.VITE_MAPS_API_KEY}>
       <SideBar
@@ -42,6 +41,7 @@ function App() {
       <Searchbar
         searchRef={searchRef}
         sideBar={sideBar}
+        setCenter={setCenter}
         changeSidebar={setSidebar}
         setChartData={setChartData}
       ></Searchbar>
@@ -66,7 +66,7 @@ function App() {
         >
           <Circle
             radius={43000}
-            center={INITIAL_CENTER}
+            center={center}
             strokeColor={"#b3b00c"}
             strokeOpacity={1}
             strokeWeight={3}
